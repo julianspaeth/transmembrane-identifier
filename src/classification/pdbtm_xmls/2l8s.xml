@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2l8s" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2012-02-03</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-10</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>62.70</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="18.00000000"/>
+    <TMATRIX>
+      <ROWX X="0.84332991" Y="-0.11042025" Z="0.52592975" T="0.05875361"/>
+      <ROWY X="0.00000000" Y="0.97866285" Z="0.20547268" T="0.00384638"/>
+      <ROWZ X="-0.53739625" Y="-0.17328125" Z="0.82533562" T="-6.20623636"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Outside">
+    <NOTE>by similarity to chain: A (see TOPDB: AB00651)</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      MGLPGRVPLW VILLSAFAGL LLLMLLILAL WKIGFFKRPL KKKMEKLEHH 
+      HHHH
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="17" pdb_end="17" type="1"/>
+    <REGION seq_beg="18" pdb_beg="18" seq_end="40" pdb_end="40" type="H"/>
+    <REGION seq_beg="41" pdb_beg="41" seq_end="46" pdb_end="46" type="2"/>
+    <REGION seq_beg="47" pdb_beg="47" seq_end="54" pdb_end="54" type="U"/>
+  </CHAIN>
+</pdbtm>

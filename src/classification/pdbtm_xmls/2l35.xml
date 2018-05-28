@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2l35" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2010-11-03</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-06-06</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>80.71</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="-0.00000030" Y="-0.00000049" Z="18.00000000"/>
+    <TMATRIX>
+      <ROWX X="0.64968234" Y="0.75816023" Z="0.05573126" T="-58.70382309"/>
+      <ROWY X="0.00000000" Y="0.07331076" Z="-0.99730915" T="-16.53187561"/>
+      <ROWZ X="-0.76020586" Y="0.64793414" Z="0.04762870" T="72.17413330"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Inside">
+    <NOTE>According to 20890284/Fig1</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      CSTVSPGVLA GIVVGDLVLT VLIALAVYFL GRLGTAEVLG IISIVLVATV 
+      LKTIVLIPFL EQN
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="8" pdb_end="8" type="2"/>
+    <REGION seq_beg="9" pdb_beg="9" seq_end="31" pdb_end="31" type="H"/>
+    <REGION seq_beg="32" pdb_beg="32" seq_end="37" pdb_end="37" type="1"/>
+    <REGION seq_beg="38" pdb_beg="38" seq_end="61" pdb_end="61" type="H"/>
+    <REGION seq_beg="62" pdb_beg="62" seq_end="63" pdb_end="63" type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="B" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      CSTVSPGVLA GIVVGDLVLT VLIALAVYFL GR
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="8" pdb_end="8" type="2"/>
+    <REGION seq_beg="9" pdb_beg="9" seq_end="30" pdb_end="30" type="H"/>
+    <REGION seq_beg="31" pdb_beg="31" seq_end="32" pdb_end="32" type="1"/>
+  </CHAIN>
+</pdbtm>

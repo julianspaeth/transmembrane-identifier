@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2jo1" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2007-08-10</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2012-06-15</DATE>
+    <DESCR>Interfacial helix detected.</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-06-06</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>65.21</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>no</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="18.00000000"/>
+    <TMATRIX>
+      <ROWX X="0.99992317" Y="-0.01226120" Z="0.00180055" T="4.62689400"/>
+      <ROWY X="0.00000000" Y="0.14529152" Z="0.98938888" T="-1.09129810"/>
+      <ROWZ X="-0.01239270" Y="-0.98931289" Z="0.14528036" T="-0.07700206"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Inside">
+    <NOTE>According to 17511473/cysteines are exposed to the reducing environment of the cytoplasm</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      ESPKEHDPFT YDYQSLQIGG LVIAGILFIL GILIVLSRRC RCKFNQQQRT 
+      GEPDEEEGTF RSSIRRLSTR RR
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="13" pdb_end="13" type="2"/>
+    <REGION seq_beg="14" pdb_beg="14" seq_end="37" pdb_end="37" type="H"/>
+    <REGION seq_beg="38" pdb_beg="38" seq_end="59" pdb_end="59" type="1"/>
+    <REGION seq_beg="60" pdb_beg="60" seq_end="69" pdb_end="69" type="F"/>
+    <REGION seq_beg="70" pdb_beg="70" seq_end="72" pdb_end="72" type="1"/>
+  </CHAIN>
+</pdbtm>

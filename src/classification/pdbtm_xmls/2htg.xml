@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2htg" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2006-08-10</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2006-08-10</DATE>
+    <DESCR>Fragment</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-10</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>50.66</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="12.50000000"/>
+    <TMATRIX>
+      <ROWX X="0.91781569" Y="0.33360392" Z="-0.21522744" T="-40.42003250"/>
+      <ROWY X="0.00000000" Y="0.54212523" Z="0.84029770" T="-5.11609316"/>
+      <ROWZ X="0.39700684" Y="-0.77123839" Z="0.49757105" T="-17.00729561"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Outside">
+    <NOTE>see TOPDB: AP00072</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      HINELLHILV FGESLLNDAV TVVLYKK
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="250" seq_end="5" pdb_end="254" type="2"/>
+    <REGION seq_beg="6" pdb_beg="255" seq_end="24" pdb_end="273" type="H"/>
+    <REGION seq_beg="25" pdb_beg="274" seq_end="27" pdb_end="276" type="1"/>
+    <REGION seq_beg="28" pdb_beg="277" seq_end="28" pdb_end="277" type="U"/>
+  </CHAIN>
+</pdbtm>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="4p6k" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2015-01-20</CREATE_DATE>
+  <RAWRES>
+    <TMRES>65.54</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+    <PDBKWORD>Membrane</PDBKWORD>
+  </RAWRES>
+  <BIOMATRIX>
+    <MATRIX ID="1">
+      <APPLY_TO_CHAIN CHAINID="A" NEW_CHAINID="B"/>
+      <TMATRIX>
+        <ROWX X="-1.00000000" Y="0.00000000" Z="0.00000000" T="-23.43499947"/>
+        <ROWY X="0.00000000" Y="1.00000000" Z="0.00000000" T="0.00000000"/>
+        <ROWZ X="0.00000000" Y="0.00000000" Z="-1.00000000" T="-15.15075016"/>
+      </TMATRIX>
+    </MATRIX>
+  </BIOMATRIX>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="15.50000000"/>
+    <TMATRIX>
+      <ROWX X="0.97600961" Y="-0.01086295" Z="0.21745618" T="13.08455849"/>
+      <ROWY X="0.00000000" Y="0.99875462" Z="0.04989247" T="0.29937905"/>
+      <ROWZ X="-0.21772733" Y="-0.04869553" Z="0.97479409" T="4.70652246"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      Y?KEIAHALF SALFALSELY IAVRY?
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1"  seq_end="3" pdb_end="3"  type="2"/>
+    <REGION seq_beg="4" pdb_beg="4"  seq_end="23" pdb_end="23"  type="H"/>
+    <REGION seq_beg="24" pdb_beg="24"  seq_end="25" pdb_end="25"  type="1"/>
+    <REGION seq_beg="26" pdb_beg="26"  seq_end="26" pdb_end="26"  type="U"/>
+  </CHAIN>
+  <CHAIN CHAINID="B" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      Y?KEIAHALF SALFALSELY IAVRY?
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1"  seq_end="3" pdb_end="3"  type="1"/>
+    <REGION seq_beg="4" pdb_beg="4"  seq_end="23" pdb_end="23"  type="H"/>
+    <REGION seq_beg="24" pdb_beg="24"  seq_end="25" pdb_end="25"  type="2"/>
+    <REGION seq_beg="26" pdb_beg="26"  seq_end="26" pdb_end="26"  type="U"/>
+  </CHAIN>
+</pdbtm>

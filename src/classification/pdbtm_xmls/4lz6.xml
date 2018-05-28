@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="4lz6" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2013-10-24</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2013-10-25</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>76.06</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>no</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="16.00000000"/>
+    <TMATRIX>
+      <ROWX X="0.99998957" Y="-0.00326441" Z="0.00317986" T="-9.06794167"/>
+      <ROWY X="0.00256746" Y="0.98005497" Z="0.19870967" T="23.02558899"/>
+      <ROWZ X="-0.00376511" Y="-0.19869944" Z="0.98005325" T="19.69382858"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Outside">
+    <NOTE>According to 10.1038/NSMB.2687/Fig2</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="12" TYPE="alpha">
+    <SEQ>
+      QKQQSERLGT EAIPKLLRSL SIPAMIGMFV MALYNVVDTI FISYAVGIEG 
+      VAGVTIAFPI MMIMMSMAGA LGIGGASVIS RRLGERRGEE ANQVFGNILT 
+      VILVLSVIGF ISAFTLLGPA LQLFGATSVT QGYATDYLFP ILLGSIFFFF 
+      AFAANNIIRS EGNATFAMVT MIVPAVLNIL LDVLFIFGLN MGVLGASIAT 
+      VIAQASVTGL VLRYFLTGKS TLSLHWSDLR MKGSVIKEVC LVGLPAFVQQ 
+      SSASLMMIAI NSMLLRFGSD FYVGVFGLVQ RIMMFVMMPM MGIMQAMQPI 
+      VGYNYGAKQY SRLRETVMLG FKVATIFSIG IFALLMLFPE ALLRVFTADR 
+      EVIQAGVSAM HILFCVTFLI GAQIVAGGLY QSLGKPKQAL ILSLSRQIIF 
+      LIPLVLILPH IFGLSGVWWA FPIADVLSFI LTVVLLYRDR NVFFLK
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="3" seq_end="18" pdb_end="20" type="2"/>
+    <REGION seq_beg="19" pdb_beg="21" seq_end="39" pdb_end="41" type="H"/>
+    <REGION seq_beg="40" pdb_beg="42" seq_end="54" pdb_end="56" type="1"/>
+    <REGION seq_beg="55" pdb_beg="57" seq_end="76" pdb_end="78" type="H"/>
+    <REGION seq_beg="77" pdb_beg="79" seq_end="95" pdb_end="97" type="2"/>
+    <REGION seq_beg="96" pdb_beg="98" seq_end="117" pdb_end="119" type="H"/>
+    <REGION seq_beg="118" pdb_beg="120" seq_end="137" pdb_end="139" type="1"/>
+    <REGION seq_beg="138" pdb_beg="140" seq_end="160" pdb_end="162" type="H"/>
+    <REGION seq_beg="161" pdb_beg="163" seq_end="163" pdb_end="165" type="2"/>
+    <REGION seq_beg="164" pdb_beg="166" seq_end="185" pdb_end="187" type="H"/>
+    <REGION seq_beg="186" pdb_beg="188" seq_end="195" pdb_end="197" type="1"/>
+    <REGION seq_beg="196" pdb_beg="198" seq_end="215" pdb_end="217" type="H"/>
+    <REGION seq_beg="216" pdb_beg="218" seq_end="239" pdb_end="241" type="2"/>
+    <REGION seq_beg="240" pdb_beg="242" seq_end="260" pdb_end="262" type="H"/>
+    <REGION seq_beg="261" pdb_beg="263" seq_end="276" pdb_end="278" type="1"/>
+    <REGION seq_beg="277" pdb_beg="279" seq_end="298" pdb_end="300" type="H"/>
+    <REGION seq_beg="299" pdb_beg="301" seq_end="320" pdb_end="322" type="2"/>
+    <REGION seq_beg="321" pdb_beg="323" seq_end="342" pdb_end="344" type="H"/>
+    <REGION seq_beg="343" pdb_beg="345" seq_end="358" pdb_end="360" type="1"/>
+    <REGION seq_beg="359" pdb_beg="361" seq_end="381" pdb_end="383" type="H"/>
+    <REGION seq_beg="382" pdb_beg="384" seq_end="386" pdb_end="388" type="2"/>
+    <REGION seq_beg="387" pdb_beg="389" seq_end="408" pdb_end="410" type="H"/>
+    <REGION seq_beg="409" pdb_beg="411" seq_end="415" pdb_end="417" type="1"/>
+    <REGION seq_beg="416" pdb_beg="418" seq_end="436" pdb_end="438" type="H"/>
+    <REGION seq_beg="437" pdb_beg="439" seq_end="446" pdb_end="448" type="2"/>
+  </CHAIN>
+</pdbtm>

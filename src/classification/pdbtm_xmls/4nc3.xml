@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="4nc3" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2014-01-07</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2014-01-01</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>74.73</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>no</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="16.25000000"/>
+    <TMATRIX>
+      <ROWX X="0.97764111" Y="0.06450453" Z="-0.20014247" T="25.46234131"/>
+      <ROWY X="0.00000000" Y="0.95178854" Z="0.30675489" T="18.21263313"/>
+      <ROWZ X="0.21028039" Y="-0.29989618" Z="0.93050760" T="-3.94080544"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Inside">
+    <NOTE>by similarity to chain: A (see PDBTM: 4ib4)</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="7" TYPE="alpha">
+    <SEQ>
+      DYKDDDDGAP TESIPEEMKQ IVEEQGNKLH WAALLILMVI IPTIGGNTLV 
+      ILAVSLEKKL QYATNYFLMS LAVADLLVGL FVMPIALLTI MFEAMWPLPL 
+      VLCPAWLFLD VLFSTASIWH LCAISVDRYI AIKKPIQANQ YNSRATAFIK 
+      ITVVWLISIG IAIPVPIKGI ETDVDNPNNI TCVLTKERFG DFMLFGSLAA 
+      FFTPLAIMIV TYFLTIHALQ KKAADLEDNW ETLNDNLKVI EKADNAAQVK 
+      DALTKMRAAA LDAQKATPPK LEDKSPDSPE MKDFRHGFDI LVGQIDDALK 
+      LANEGKVKEA QAAAEQLKTT RNAYIQKYLQ TISNEQRASK VLGIVFFLFL 
+      LMWCPFFITN ITLVLCDSCN QTTLQMLLEI FVWIGYVSSG VNPLVYTLFN 
+      KTFRDAFGRY ITCNYRATKS VGRPLEVLFQ 
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="26" seq_end="22" pdb_end="47" type="U"/>
+    <REGION seq_beg="23" pdb_beg="48" seq_end="29" pdb_end="54" type="2"/>
+    <REGION seq_beg="30" pdb_beg="55" seq_end="52" pdb_end="77" type="H"/>
+    <REGION seq_beg="53" pdb_beg="78" seq_end="68" pdb_end="93" type="1"/>
+    <REGION seq_beg="69" pdb_beg="94" seq_end="90" pdb_end="115" type="H"/>
+    <REGION seq_beg="91" pdb_beg="116" seq_end="98" pdb_end="123" type="2"/>
+    <REGION seq_beg="99" pdb_beg="124" seq_end="123" pdb_end="148" type="H"/>
+    <REGION seq_beg="124" pdb_beg="149" seq_end="151" pdb_end="176" type="1"/>
+    <REGION seq_beg="152" pdb_beg="177" seq_end="170" pdb_end="195" type="H"/>
+    <REGION seq_beg="171" pdb_beg="196" seq_end="172" pdb_end="197" type="2"/>
+    <REGION seq_beg="173" pdb_beg="198" seq_end="173" pdb_end="198" type="U"/>
+    <REGION seq_beg="174" pdb_beg="199" seq_end="188" pdb_end="213" type="2"/>
+    <REGION seq_beg="189" pdb_beg="214" seq_end="210" pdb_end="235" type="H"/>
+    <REGION seq_beg="211" pdb_beg="236" seq_end="258" pdb_end="1035" type="1"/>
+    <REGION seq_beg="259" pdb_beg="1036" seq_end="281" pdb_end="1058" type="U"/>
+    <REGION seq_beg="282" pdb_beg="1059" seq_end="344" pdb_end="328" type="1"/>
+    <REGION seq_beg="345" pdb_beg="329" seq_end="366" pdb_end="350" type="H"/>
+    <REGION seq_beg="367" pdb_beg="351" seq_end="374" pdb_end="358" type="2"/>
+    <REGION seq_beg="375" pdb_beg="359" seq_end="396" pdb_end="380" type="H"/>
+    <REGION seq_beg="397" pdb_beg="381" seq_end="416" pdb_end="400" type="1"/>
+    <REGION seq_beg="417" pdb_beg="401" seq_end="430" pdb_end="414" type="U"/>
+  </CHAIN>
+</pdbtm>

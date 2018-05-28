@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2m7x" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2013-06-21</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2013-06-21</DATE>
+    <DESCR>Not transmembrane protein.</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2014-08-26</DATE>
+    <DESCR>Fragment of Sod2.</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2014-08-26</DATE>
+    <DESCR>Fragment.</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>51.64</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="11.25000000"/>
+    <TMATRIX>
+      <ROWX X="0.85138476" Y="-0.09399945" Z="-0.51605046" T="-6.44863844"/>
+      <ROWY X="0.07212058" Y="0.99544603" Z="-0.06233696" T="15.44485378"/>
+      <ROWZ X="0.51955998" Y="0.01585488" Z="0.85428685" T="-1.35740256"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      LFPQINFLGS LLIAGCITST DPVLSALIVG 
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="125"  seq_end="2" pdb_end="126"  type="1"/>
+    <REGION seq_beg="3" pdb_beg="127"  seq_end="18" pdb_end="142"  type="H"/>
+    <REGION seq_beg="19" pdb_beg="143"  seq_end="30" pdb_end="154"  type="2"/>
+  </CHAIN>
+</pdbtm>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2meu" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2014-07-31</CREATE_DATE>
+  <RAWRES>
+    <TMRES>57.74</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>no</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000002" Y="-0.00000008" Z="18.00000000"/>
+    <TMATRIX>
+      <ROWX X="0.54136699" Y="-0.83852077" Z="-0.06168350" T="-6.95935440"/>
+      <ROWY X="0.00000000" Y="0.07336404" Z="-0.99730521" T="3.10710526"/>
+      <ROWZ X="0.84078652" Y="0.53990811" Z="0.03971687" T="-34.44081879"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      EKTNLEIIIL VETAVIAMEF WLLLVIILRT VKRANGG
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1"  seq_end="11" pdb_end="11"  type="1"/>
+    <REGION seq_beg="12" pdb_beg="12"  seq_end="36" pdb_end="36"  type="H"/>
+    <REGION seq_beg="37" pdb_beg="37"  seq_end="37" pdb_end="37"  type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="B" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      EKTNLEIIIL VETAVIAMEF WLLLVIILRT VKRANGG
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="101"  seq_end="11" pdb_end="111"  type="1"/>
+    <REGION seq_beg="12" pdb_beg="112"  seq_end="36" pdb_end="136"  type="H"/>
+    <REGION seq_beg="37" pdb_beg="137"  seq_end="37" pdb_end="137"  type="2"/>
+  </CHAIN>
+</pdbtm>

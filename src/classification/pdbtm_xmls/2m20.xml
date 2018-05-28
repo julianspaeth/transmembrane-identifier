@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2m20" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2013-02-20</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2013-02-20</DATE>
+    <DESCR>Fragment.</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-10</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>45.86</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="-0.00000003" Y="-0.00000006" Z="18.00000000"/>
+    <TMATRIX>
+      <ROWX X="0.99985790" Y="0.00222331" Z="-0.01671125" T="0.00013115"/>
+      <ROWY X="0.00000000" Y="0.99126559" Z="0.13188086" T="0.00023180"/>
+      <ROWZ X="0.01685850" Y="-0.13186212" Z="0.99112469" T="7.49022007"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Outside">
+    <NOTE>by similarity to chain: A (see TOPDB: AB00672)</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      KIPSIATGLV GALLLLLVVA LGIGLFIRRR HIVRKRTLRR LLQERELVEP 
+      LTPSGEKLWS 
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="4" pdb_end="4" type="1"/>
+    <REGION seq_beg="5" pdb_beg="5" seq_end="29" pdb_end="29" type="H"/>
+    <REGION seq_beg="30" pdb_beg="30" seq_end="60" pdb_end="60" type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="B" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      KIPSIATGLV GALLLLLVVA LGIGLFIRRR HIVRKRTLRR LLQERELVEP 
+      LTPSGEKLWS 
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="61" seq_end="4" pdb_end="64" type="1"/>
+    <REGION seq_beg="5" pdb_beg="65" seq_end="29" pdb_end="89" type="H"/>
+    <REGION seq_beg="30" pdb_beg="90" seq_end="60" pdb_end="120" type="2"/>
+  </CHAIN>
+</pdbtm>

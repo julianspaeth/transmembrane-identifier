@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2mfr" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2014-04-04</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2014-04-04</DATE>
+    <DESCR>Fragment.</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>62.95</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="18.00000000"/>
+    <TMATRIX>
+      <ROWX X="0.98836720" Y="-0.15207073" Z="-0.00219949" T="1.22742558"/>
+      <ROWY X="-0.00217130" Y="-0.02856979" Z="0.99958944" T="0.04951893"/>
+      <ROWZ X="-0.15207113" Y="-0.98795664" Z="-0.02856761" T="4.57421494"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      MTYFYVTDYL DVPSNIAKII IGPLIFVFLF SVVIGSIYLF LRKRQPDGPL 
+      EHHHHHH
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1"  seq_end="20" pdb_end="20"  type="2"/>
+    <REGION seq_beg="21" pdb_beg="21"  seq_end="42" pdb_end="42"  type="H"/>
+    <REGION seq_beg="43" pdb_beg="43"  seq_end="57" pdb_end="57"  type="1"/>
+  </CHAIN>
+</pdbtm>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="5hk1" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2016-04-17</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2016-04-17</DATE>
+    <DESCR>Interfacial helix detected.</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>54.64</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+    <PDBKWORD>Membrane</PDBKWORD>
+  </RAWRES>
+  <BIOMATRIX>
+    <DELETE CHAINID="B"/>
+    <DELETE CHAINID="C"/>
+  </BIOMATRIX>
+  <MEMBRANE>
+    <NORMAL X="1.29253745" Y="0.00000000" Z="17.20150757"/>
+    <TMATRIX>
+      <ROWX X="0.98825353" Y="-0.05807510" Z="-0.14135888" T="-20.89685440"/>
+      <ROWY X="-0.00258775" Y="0.91848898" Z="-0.39543813" T="-48.49206924"/>
+      <ROWZ X="0.15280166" Y="0.39115894" Z="0.90754968" T="-10.39798546"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      GPGSMQWAVG RRWAWAALLL AVAAVLTQVV WLWLGTQSFV FQREEIAQLA 
+      RQYAGLDHEL AFSRLIVELR RLHPGHVLPD EELQWVFVNA GGWMGAMCLL 
+      HASLSEYVLL FGTALGSRGH SGRYWAEISD TIISGTFHQW REGTTKSEVF 
+      YPGETVVHGP GEATAVEWGP NTWMVEYGRG VIPSTLAFAL ADTVFSTQDF 
+      LTLFYTLRSY ARGLRLELTT YLFGQDP
+    </SEQ>
+    <REGION seq_beg="12" pdb_beg="8"  seq_end="15" pdb_end="11"  type="2"/>
+    <REGION seq_beg="16" pdb_beg="12"  seq_end="37" pdb_end="33"  type="H"/>
+    <REGION seq_beg="38" pdb_beg="34"  seq_end="199" pdb_end="195"  type="1"/>
+    <REGION seq_beg="200" pdb_beg="196"  seq_end="222" pdb_end="218"  type="F"/>
+    <REGION seq_beg="223" pdb_beg="219"  seq_end="223" pdb_end="219"  type="1"/>
+  </CHAIN>
+</pdbtm>

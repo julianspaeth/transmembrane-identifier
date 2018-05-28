@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2ks1" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2010-06-10</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2010-06-10</DATE>
+    <DESCR>Fragment.</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-10</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>75.06</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="18.00000000"/>
+    <TMATRIX>
+      <ROWX X="0.97653818" Y="0.20094922" Z="0.07741205" T="9.39560127"/>
+      <ROWY X="0.01258129" Y="0.30562669" Z="-0.95206833" T="-16.83562851"/>
+      <ROWZ X="-0.21497656" Y="0.93070489" Z="0.29592797" T="-12.73414612"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Outside">
+    <NOTE>by similarity to chain: B (see TOPDB: AB00672)</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      GCPAEQRASP LTSIISAVVG ILLVVVLGVV FGILIKRRQQ KIRK
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="41" seq_end="3" pdb_end="43" type="I"/>
+    <REGION seq_beg="4" pdb_beg="44" seq_end="11" pdb_end="51" type="1"/>
+    <REGION seq_beg="12" pdb_beg="52" seq_end="34" pdb_end="74" type="H"/>
+    <REGION seq_beg="35" pdb_beg="75" seq_end="44" pdb_end="84" type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="B" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      EGCPTNGPKI PSIATGMVGA LLLLLVVALG IGLFMRRRHI VRKR
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="134" seq_end="13" pdb_end="146" type="1"/>
+    <REGION seq_beg="14" pdb_beg="147" seq_end="38" pdb_end="171" type="H"/>
+    <REGION seq_beg="39" pdb_beg="172" seq_end="44" pdb_end="177" type="2"/>
+  </CHAIN>
+</pdbtm>

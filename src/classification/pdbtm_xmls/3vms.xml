@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="3vms" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2012-04-25</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2012-06-19</DATE>
+    <DESCR>Interfacial helix detected.</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-13</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>56.98</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+  </RAWRES>
+  <BIOMATRIX>
+    <DELETE CHAINID="B"/>
+  </BIOMATRIX>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="11.50000000"/>
+    <TMATRIX>
+      <ROWX X="0.91404450" Y="-0.06280671" Z="-0.40072179" T="-14.75334072"/>
+      <ROWY X="0.00000000" Y="0.98793900" Z="-0.15484357" T="17.94058418"/>
+      <ROWZ X="0.40561390" Y="0.14153391" Z="0.90302020" T="29.58126259"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Inside">
+    <NOTE>by similarity to chain: A (see PDBTM: 3vmt)</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      MGSSHHHHHH SSGLVPRGSH MQPVGKPPKK KKSKRILLKI LLTILIIIAL 
+      FIGIMYFLST RDNVDELRKI ENKSSFVSAD NMPEYVKGAF ISMEDERFYN 
+      HHGFDLKGTT RALFSTISDR DVQGGSTITQ QVVKNYFYDN DRSFTRKVKE 
+      LFVAHRVEKQ YNKNEILSFY LNNIYFGDNQ YTLEGAANHY FGTTVNKNST 
+      TMSHITVLQS AILASKVNAP SVYNINNMSE NFTQRVSTNL EKMKQQNYIN 
+      ETQYQQAMSQ LNR
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="7" seq_end="36" pdb_end="42" type="U"/>
+    <REGION seq_beg="37" pdb_beg="43" seq_end="41" pdb_end="47" type="1"/>
+    <REGION seq_beg="42" pdb_beg="48" seq_end="55" pdb_end="61" type="H"/>
+    <REGION seq_beg="56" pdb_beg="62" seq_end="105" pdb_end="111" type="2"/>
+    <REGION seq_beg="106" pdb_beg="112" seq_end="112" pdb_end="118" type="F"/>
+    <REGION seq_beg="113" pdb_beg="119" seq_end="116" pdb_end="122" type="2"/>
+    <REGION seq_beg="117" pdb_beg="123" seq_end="123" pdb_end="129" type="U"/>
+    <REGION seq_beg="124" pdb_beg="130" seq_end="263" pdb_end="269" type="2"/>
+  </CHAIN>
+</pdbtm>

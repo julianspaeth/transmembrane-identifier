@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2z5y" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2008-04-02</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-10</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>49.07</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>no</PDBKWRES>
+  </RAWRES>
+  <BIOMATRIX>
+    <MATRIX ID="1">
+      <APPLY_TO_CHAIN CHAINID="A" NEW_CHAINID="B"/>
+      <TMATRIX>
+        <ROWX X="-1.00000000" Y="0.00000000" Z="0.00000000" T="-135.54699707"/>
+        <ROWY X="0.00000000" Y="-1.00000000" Z="0.00000000" T="0.00000000"/>
+        <ROWZ X="0.00000000" Y="0.00000000" Z="1.00000000" T="0.00000000"/>
+      </TMATRIX>
+    </MATRIX>
+    <MATRIX ID="2">
+      <APPLY_TO_CHAIN CHAINID="A" NEW_CHAINID="C"/>
+      <TMATRIX>
+        <ROWX X="-1.00000000" Y="0.00000000" Z="0.00000000" T="-135.54699707"/>
+        <ROWY X="0.00000000" Y="1.00000000" Z="0.00000000" T="0.00000000"/>
+        <ROWZ X="0.00000000" Y="0.00000000" Z="-1.00000000" T="-54.80400085"/>
+      </TMATRIX>
+    </MATRIX>
+    <MATRIX ID="3">
+      <APPLY_TO_CHAIN CHAINID="A" NEW_CHAINID="D"/>
+      <TMATRIX>
+        <ROWX X="1.00000000" Y="0.00000000" Z="0.00000000" T="0.00000000"/>
+        <ROWY X="0.00000000" Y="-1.00000000" Z="0.00000000" T="0.00000000"/>
+        <ROWZ X="0.00000000" Y="0.00000000" Z="-1.00000000" T="-54.80400085"/>
+      </TMATRIX>
+    </MATRIX>
+    <DELETE CHAINID="C"/>
+    <DELETE CHAINID="D"/>
+    <DELETE CHAINID="B"/>
+    <DELETE CHAINID="C"/>
+  </BIOMATRIX>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="17.00000000"/>
+    <TMATRIX>
+      <ROWX X="0.63997942" Y="0.68405557" Z="-0.34999180" T="34.31066513"/>
+      <ROWY X="0.00000000" Y="0.45548600" Z="0.89024293" T="30.71468353"/>
+      <ROWZ X="0.76839203" Y="-0.56973720" Z="0.29150167" T="60.52579498"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Outside">
+    <NOTE>by similarity to chain: A (see TOPDB: AB01095)</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      HMFDVVVIGG GISGLSAAKL LTEYGVSVLV LEARDRVGGR TYTIRNEHVD 
+      YVDVGGAYVG PTQNRILRLS KELGIETYKV NVSERLVQYV KGKTYPFRAA 
+      FPPVWNPIAY LDYNNLWRTI DNMGKEIPTD APWEAQHADK WDKMTMKELI 
+      DKICWTKTAR RFAYLFVNIN VTSEPHEVSA LWFLWYVKQC GGTTRIFSVT 
+      NGGQERKFVG GSGQVSERIM DLLGDQVKLN HPVTHVDQSS DNIIIETLNH 
+      EHYECKYVIN AIPPTLTAKI HFRPELPAER NQLIQRLPMG AVIKCMMYYK 
+      EAFWKKKDYC GCMIIEDEDA PISITLDDTK PDGSLPAIMG FILARKADRL 
+      AKLHKEIRKK KICELYAKVL GSQEALHPVH YEEKNWCEEQ YSGGCYTAYF 
+      PPGIMTQYGR VIRQPVGRIF FAGTETATKW SGYMEGAVEA GERAAREVLN 
+      GLGKVTEKDI WVQEPESKDV PAVEITHTFW ERNLPSVSGL LKIIGFSTSV 
+      TALGFVLYKY KLL
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="12" seq_end="483" pdb_end="494" type="2"/>
+    <REGION seq_beg="484" pdb_beg="495" seq_end="508" pdb_end="519" type="H"/>
+    <REGION seq_beg="509" pdb_beg="520" seq_end="512" pdb_end="523" type="1"/>
+    <REGION seq_beg="513" pdb_beg="524" seq_end="513" pdb_end="524" type="I"/>
+  </CHAIN>
+</pdbtm>

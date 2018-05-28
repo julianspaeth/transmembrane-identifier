@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2b6s" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2005-11-03</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-10</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>69.12</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Tm_Alpha</SPRES>
+    <PDBKWRES>no</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="18.00000000"/>
+    <TMATRIX>
+      <ROWX X="0.63327473" Y="-0.35865617" Z="-0.68580532" T="-0.08188510"/>
+      <ROWY X="0.00000000" Y="0.88613683" Z="-0.46342370" T="-0.11867326"/>
+      <ROWZ X="0.77392709" Y="0.29347453" Z="0.56116807" T="-0.80103922"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Outside">
+    <NOTE>see TOPDB: AP00568</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="7" TYPE="alpha">
+    <SEQ>
+      MAANVSGAKS CPANFLAAAD DKLSGFQGDF LWPILVVEFL VAVASNGLAL 
+      YRFSIRKQRP WHPAVVFSVQ LAVSDLLCAL TLPPLAAYLY PPKHWRYGEA 
+      ACRLERFLFT CNLLGSVIFI TCISLNRYLG IVHPFFARSH LRPKHAWAVS 
+      AAGWVLAALL AMPTLSFSHL KRPQQGAGNC SVARPEACIK CLGTADHGLA 
+      AYRAYSLVLA GLGCGLPLLL TLAAYGALGR AVLRSPGMTV AEKLRVAALV 
+      ASGVALYASS YVPYHIMRVL NVDARRRWST RCPSFADIAQ ATAALELGPY 
+      VGYQVMRGLM PLAFCVHPLL YMAAVPSLGC CCRHCPGYRD SWNPEDAKST 
+      GQALPLNATA APKPSEPQSR ELSQ
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="9" seq_end="7" pdb_end="15" type="U"/>
+    <REGION seq_beg="8" pdb_beg="16" seq_end="27" pdb_end="35" type="1"/>
+    <REGION seq_beg="28" pdb_beg="36" seq_end="55" pdb_end="63" type="H"/>
+    <REGION seq_beg="56" pdb_beg="64" seq_end="66" pdb_end="74" type="2"/>
+    <REGION seq_beg="67" pdb_beg="75" seq_end="91" pdb_end="99" type="H"/>
+    <REGION seq_beg="92" pdb_beg="100" seq_end="99" pdb_end="107" type="1"/>
+    <REGION seq_beg="100" pdb_beg="108" seq_end="124" pdb_end="132" type="H"/>
+    <REGION seq_beg="125" pdb_beg="133" seq_end="147" pdb_end="155" type="2"/>
+    <REGION seq_beg="148" pdb_beg="156" seq_end="169" pdb_end="177" type="H"/>
+    <REGION seq_beg="170" pdb_beg="178" seq_end="199" pdb_end="207" type="1"/>
+    <REGION seq_beg="200" pdb_beg="208" seq_end="226" pdb_end="234" type="H"/>
+    <REGION seq_beg="227" pdb_beg="235" seq_end="249" pdb_end="257" type="2"/>
+    <REGION seq_beg="250" pdb_beg="258" seq_end="274" pdb_end="282" type="H"/>
+    <REGION seq_beg="275" pdb_beg="283" seq_end="299" pdb_end="307" type="1"/>
+    <REGION seq_beg="300" pdb_beg="308" seq_end="323" pdb_end="331" type="H"/>
+    <REGION seq_beg="324" pdb_beg="332" seq_end="325" pdb_end="333" type="2"/>
+    <REGION seq_beg="326" pdb_beg="334" seq_end="374" pdb_end="382" type="U"/>
+  </CHAIN>
+</pdbtm>

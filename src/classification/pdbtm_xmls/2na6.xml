@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2na6" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2016-02-05</CREATE_DATE>
+  <RAWRES>
+    <TMRES>83.68</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+    <PDBKWORD>Membrane</PDBKWORD>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000034" Y="0.00000038" Z="15.25000000"/>
+    <TMATRIX>
+      <ROWX X="0.92000771" Y="-0.23235846" Z="-0.31558734" T="-67.04644775"/>
+      <ROWY X="0.00000000" Y="0.80527461" Z="-0.59290200" T="-6.79684258"/>
+      <ROWZ X="0.39190027" Y="0.54547441" Z="0.74085885" T="-54.61103058"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      RNRLWLLTIL VLLIPLVFIY RKYRKRKS
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="167"  seq_end="6" pdb_end="172"  type="1"/>
+    <REGION seq_beg="7" pdb_beg="173"  seq_end="23" pdb_end="189"  type="H"/>
+    <REGION seq_beg="24" pdb_beg="190"  seq_end="28" pdb_end="194"  type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="B" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      RNRLWLLTIL VLLIPLVFIY RKYRKRKS
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="167"  seq_end="6" pdb_end="172"  type="1"/>
+    <REGION seq_beg="7" pdb_beg="173"  seq_end="23" pdb_end="189"  type="H"/>
+    <REGION seq_beg="24" pdb_beg="190"  seq_end="28" pdb_end="194"  type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="C" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      RNRLWLLTIL VLLIPLVFIY RKYRKRKS
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="167"  seq_end="2" pdb_end="168"  type="1"/>
+    <REGION seq_beg="3" pdb_beg="169"  seq_end="22" pdb_end="188"  type="H"/>
+    <REGION seq_beg="23" pdb_beg="189"  seq_end="28" pdb_end="194"  type="2"/>
+  </CHAIN>
+</pdbtm>

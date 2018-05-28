@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="1mpo" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2003-08-11</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2005-04-06</DATE>
+    <DESCR>Format has been changed to pdbtm format v2.0</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2005-07-21</DATE>
+    <DESCR>Model has been recalculated by TMDET version 2.0</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-10</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>47.67</TMRES>
+    <TMTYPE>Tm_Beta</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+    <PDBKWORD>Membrane</PDBKWORD>
+    <PDBKWORD>Porin</PDBKWORD>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000010" Y="-0.00000002" Z="10.25000000"/>
+    <TMATRIX>
+      <ROWX X="0.99413544" Y="0.00027930" Z="0.10814257" T="-5.87526894"/>
+      <ROWY X="0.00000000" Y="0.99999666" Z="-0.00258272" T="-35.56846619"/>
+      <ROWZ X="-0.10814293" Y="0.00256757" Z="0.99413210" T="-77.14859009"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Inside">
+    <NOTE>see TOPDB: BP00086</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="18" TYPE="beta">
+    <SEQ>
+      VDFHGYARSG IGWTGSGGEQ QCFQTTGAQS KYRLGNECET YAELKLGQEV 
+      WKEGDKSFYF DTNVAYSVAQ QNDWEATDPA FREANVQGKN LIEWLPGSTI 
+      WAGKRFYQRH DVHMIDFYYW DISGPGAGLE NIDVGFGKLS LAATRSSEAG 
+      GSSSFASNNI YDYTNETAND VFDVRLAQME INPGGTLELG VDYGRANLRD 
+      NYRLVDGASK DGWLFTAEHT QSVLKGFNKF VVQYATDSMT SQGKGLSQGS 
+      GVAFDNEKFA YNINNNGHML RILDHGAISM GDNWDMMYVG MYQDINWDND 
+      NGTKWWTVGI RPMYKWTPIM STVMEIGYDN VESQRTGDKN NQYKITLAQQ 
+      WQAGDSIWSR PAIRVFATYA KWDEKWGYDY TGNADNNANF GKAVPADFNG 
+      GSFGRGDSDE WTFGAQMEIW W
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="2" pdb_end="2" type="1"/>
+    <REGION seq_beg="3" pdb_beg="3" seq_end="12" pdb_end="12" type="B"/>
+    <REGION seq_beg="13" pdb_beg="13" seq_end="38" pdb_end="38" type="2"/>
+    <REGION seq_beg="39" pdb_beg="39" seq_end="47" pdb_end="47" type="B"/>
+    <REGION seq_beg="48" pdb_beg="48" seq_end="58" pdb_end="58" type="1"/>
+    <REGION seq_beg="59" pdb_beg="59" seq_end="67" pdb_end="67" type="B"/>
+    <REGION seq_beg="68" pdb_beg="68" seq_end="78" pdb_end="78" type="2"/>
+    <REGION seq_beg="79" pdb_beg="79" seq_end="88" pdb_end="88" type="B"/>
+    <REGION seq_beg="89" pdb_beg="89" seq_end="98" pdb_end="98" type="1"/>
+    <REGION seq_beg="99" pdb_beg="99" seq_end="105" pdb_end="105" type="B"/>
+    <REGION seq_beg="106" pdb_beg="106" seq_end="123" pdb_end="123" type="I"/>
+    <REGION seq_beg="124" pdb_beg="124" seq_end="132" pdb_end="132" type="B"/>
+    <REGION seq_beg="133" pdb_beg="133" seq_end="137" pdb_end="137" type="1"/>
+    <REGION seq_beg="138" pdb_beg="138" seq_end="145" pdb_end="145" type="B"/>
+    <REGION seq_beg="146" pdb_beg="146" seq_end="170" pdb_end="170" type="2"/>
+    <REGION seq_beg="171" pdb_beg="171" seq_end="179" pdb_end="179" type="B"/>
+    <REGION seq_beg="180" pdb_beg="180" seq_end="185" pdb_end="185" type="1"/>
+    <REGION seq_beg="186" pdb_beg="186" seq_end="193" pdb_end="193" type="B"/>
+    <REGION seq_beg="194" pdb_beg="194" seq_end="213" pdb_end="213" type="2"/>
+    <REGION seq_beg="214" pdb_beg="214" seq_end="221" pdb_end="221" type="B"/>
+    <REGION seq_beg="222" pdb_beg="222" seq_end="226" pdb_end="226" type="1"/>
+    <REGION seq_beg="227" pdb_beg="227" seq_end="234" pdb_end="234" type="B"/>
+    <REGION seq_beg="235" pdb_beg="235" seq_end="270" pdb_end="270" type="2"/>
+    <REGION seq_beg="271" pdb_beg="271" seq_end="278" pdb_end="278" type="B"/>
+    <REGION seq_beg="279" pdb_beg="279" seq_end="284" pdb_end="284" type="1"/>
+    <REGION seq_beg="285" pdb_beg="285" seq_end="291" pdb_end="291" type="B"/>
+    <REGION seq_beg="292" pdb_beg="292" seq_end="306" pdb_end="306" type="2"/>
+    <REGION seq_beg="307" pdb_beg="307" seq_end="314" pdb_end="314" type="B"/>
+    <REGION seq_beg="315" pdb_beg="315" seq_end="320" pdb_end="320" type="1"/>
+    <REGION seq_beg="321" pdb_beg="321" seq_end="327" pdb_end="327" type="B"/>
+    <REGION seq_beg="328" pdb_beg="328" seq_end="343" pdb_end="343" type="2"/>
+    <REGION seq_beg="344" pdb_beg="344" seq_end="352" pdb_end="352" type="B"/>
+    <REGION seq_beg="353" pdb_beg="353" seq_end="356" pdb_end="356" type="1"/>
+    <REGION seq_beg="357" pdb_beg="357" seq_end="368" pdb_end="368" type="B"/>
+    <REGION seq_beg="369" pdb_beg="369" seq_end="412" pdb_end="412" type="2"/>
+    <REGION seq_beg="413" pdb_beg="413" seq_end="420" pdb_end="420" type="B"/>
+    <REGION seq_beg="421" pdb_beg="421" seq_end="421" pdb_end="421" type="I"/>
+  </CHAIN>
+  <CHAIN CHAINID="B" NUM_TM="18" TYPE="beta">
+    <SEQ>
+      VDFHGYARSG IGWTGSGGEQ QCFQTTGAQS KYRLGNECET YAELKLGQEV 
+      WKEGDKSFYF DTNVAYSVAQ QNDWEATDPA FREANVQGKN LIEWLPGSTI 
+      WAGKRFYQRH DVHMIDFYYW DISGPGAGLE NIDVGFGKLS LAATRSSEAG 
+      GSSSFASNNI YDYTNETAND VFDVRLAQME INPGGTLELG VDYGRANLRD 
+      NYRLVDGASK DGWLFTAEHT QSVLKGFNKF VVQYATDSMT SQGKGLSQGS 
+      GVAFDNEKFA YNINNNGHML RILDHGAISM GDNWDMMYVG MYQDINWDND 
+      NGTKWWTVGI RPMYKWTPIM STVMEIGYDN VESQRTGDKN NQYKITLAQQ 
+      WQAGDSIWSR PAIRVFATYA KWDEKWGYDY TGNADNNANF GKAVPADFNG 
+      GSFGRGDSDE WTFGAQMEIW W
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="2" pdb_end="2" type="1"/>
+    <REGION seq_beg="3" pdb_beg="3" seq_end="12" pdb_end="12" type="B"/>
+    <REGION seq_beg="13" pdb_beg="13" seq_end="38" pdb_end="38" type="2"/>
+    <REGION seq_beg="39" pdb_beg="39" seq_end="47" pdb_end="47" type="B"/>
+    <REGION seq_beg="48" pdb_beg="48" seq_end="58" pdb_end="58" type="1"/>
+    <REGION seq_beg="59" pdb_beg="59" seq_end="67" pdb_end="67" type="B"/>
+    <REGION seq_beg="68" pdb_beg="68" seq_end="78" pdb_end="78" type="2"/>
+    <REGION seq_beg="79" pdb_beg="79" seq_end="88" pdb_end="88" type="B"/>
+    <REGION seq_beg="89" pdb_beg="89" seq_end="98" pdb_end="98" type="1"/>
+    <REGION seq_beg="99" pdb_beg="99" seq_end="105" pdb_end="105" type="B"/>
+    <REGION seq_beg="106" pdb_beg="106" seq_end="123" pdb_end="123" type="I"/>
+    <REGION seq_beg="124" pdb_beg="124" seq_end="132" pdb_end="132" type="B"/>
+    <REGION seq_beg="133" pdb_beg="133" seq_end="137" pdb_end="137" type="1"/>
+    <REGION seq_beg="138" pdb_beg="138" seq_end="145" pdb_end="145" type="B"/>
+    <REGION seq_beg="146" pdb_beg="146" seq_end="170" pdb_end="170" type="2"/>
+    <REGION seq_beg="171" pdb_beg="171" seq_end="179" pdb_end="179" type="B"/>
+    <REGION seq_beg="180" pdb_beg="180" seq_end="185" pdb_end="185" type="1"/>
+    <REGION seq_beg="186" pdb_beg="186" seq_end="193" pdb_end="193" type="B"/>
+    <REGION seq_beg="194" pdb_beg="194" seq_end="213" pdb_end="213" type="2"/>
+    <REGION seq_beg="214" pdb_beg="214" seq_end="221" pdb_end="221" type="B"/>
+    <REGION seq_beg="222" pdb_beg="222" seq_end="226" pdb_end="226" type="1"/>
+    <REGION seq_beg="227" pdb_beg="227" seq_end="234" pdb_end="234" type="B"/>
+    <REGION seq_beg="235" pdb_beg="235" seq_end="270" pdb_end="270" type="2"/>
+    <REGION seq_beg="271" pdb_beg="271" seq_end="278" pdb_end="278" type="B"/>
+    <REGION seq_beg="279" pdb_beg="279" seq_end="284" pdb_end="284" type="1"/>
+    <REGION seq_beg="285" pdb_beg="285" seq_end="291" pdb_end="291" type="B"/>
+    <REGION seq_beg="292" pdb_beg="292" seq_end="306" pdb_end="306" type="2"/>
+    <REGION seq_beg="307" pdb_beg="307" seq_end="314" pdb_end="314" type="B"/>
+    <REGION seq_beg="315" pdb_beg="315" seq_end="320" pdb_end="320" type="1"/>
+    <REGION seq_beg="321" pdb_beg="321" seq_end="327" pdb_end="327" type="B"/>
+    <REGION seq_beg="328" pdb_beg="328" seq_end="343" pdb_end="343" type="2"/>
+    <REGION seq_beg="344" pdb_beg="344" seq_end="352" pdb_end="352" type="B"/>
+    <REGION seq_beg="353" pdb_beg="353" seq_end="356" pdb_end="356" type="1"/>
+    <REGION seq_beg="357" pdb_beg="357" seq_end="368" pdb_end="368" type="B"/>
+    <REGION seq_beg="369" pdb_beg="369" seq_end="412" pdb_end="412" type="2"/>
+    <REGION seq_beg="413" pdb_beg="413" seq_end="420" pdb_end="420" type="B"/>
+    <REGION seq_beg="421" pdb_beg="421" seq_end="421" pdb_end="421" type="I"/>
+  </CHAIN>
+  <CHAIN CHAINID="C" NUM_TM="18" TYPE="beta">
+    <SEQ>
+      VDFHGYARSG IGWTGSGGEQ QCFQTTGAQS KYRLGNECET YAELKLGQEV 
+      WKEGDKSFYF DTNVAYSVAQ QNDWEATDPA FREANVQGKN LIEWLPGSTI 
+      WAGKRFYQRH DVHMIDFYYW DISGPGAGLE NIDVGFGKLS LAATRSSEAG 
+      GSSSFASNNI YDYTNETAND VFDVRLAQME INPGGTLELG VDYGRANLRD 
+      NYRLVDGASK DGWLFTAEHT QSVLKGFNKF VVQYATDSMT SQGKGLSQGS 
+      GVAFDNEKFA YNINNNGHML RILDHGAISM GDNWDMMYVG MYQDINWDND 
+      NGTKWWTVGI RPMYKWTPIM STVMEIGYDN VESQRTGDKN NQYKITLAQQ 
+      WQAGDSIWSR PAIRVFATYA KWDEKWGYDY TGNADNNANF GKAVPADFNG 
+      GSFGRGDSDE WTFGAQMEIW W
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="2" pdb_end="2" type="1"/>
+    <REGION seq_beg="3" pdb_beg="3" seq_end="12" pdb_end="12" type="B"/>
+    <REGION seq_beg="13" pdb_beg="13" seq_end="38" pdb_end="38" type="2"/>
+    <REGION seq_beg="39" pdb_beg="39" seq_end="47" pdb_end="47" type="B"/>
+    <REGION seq_beg="48" pdb_beg="48" seq_end="58" pdb_end="58" type="1"/>
+    <REGION seq_beg="59" pdb_beg="59" seq_end="67" pdb_end="67" type="B"/>
+    <REGION seq_beg="68" pdb_beg="68" seq_end="78" pdb_end="78" type="2"/>
+    <REGION seq_beg="79" pdb_beg="79" seq_end="88" pdb_end="88" type="B"/>
+    <REGION seq_beg="89" pdb_beg="89" seq_end="98" pdb_end="98" type="1"/>
+    <REGION seq_beg="99" pdb_beg="99" seq_end="105" pdb_end="105" type="B"/>
+    <REGION seq_beg="106" pdb_beg="106" seq_end="123" pdb_end="123" type="I"/>
+    <REGION seq_beg="124" pdb_beg="124" seq_end="132" pdb_end="132" type="B"/>
+    <REGION seq_beg="133" pdb_beg="133" seq_end="137" pdb_end="137" type="1"/>
+    <REGION seq_beg="138" pdb_beg="138" seq_end="145" pdb_end="145" type="B"/>
+    <REGION seq_beg="146" pdb_beg="146" seq_end="170" pdb_end="170" type="2"/>
+    <REGION seq_beg="171" pdb_beg="171" seq_end="179" pdb_end="179" type="B"/>
+    <REGION seq_beg="180" pdb_beg="180" seq_end="185" pdb_end="185" type="1"/>
+    <REGION seq_beg="186" pdb_beg="186" seq_end="193" pdb_end="193" type="B"/>
+    <REGION seq_beg="194" pdb_beg="194" seq_end="213" pdb_end="213" type="2"/>
+    <REGION seq_beg="214" pdb_beg="214" seq_end="221" pdb_end="221" type="B"/>
+    <REGION seq_beg="222" pdb_beg="222" seq_end="226" pdb_end="226" type="1"/>
+    <REGION seq_beg="227" pdb_beg="227" seq_end="234" pdb_end="234" type="B"/>
+    <REGION seq_beg="235" pdb_beg="235" seq_end="270" pdb_end="270" type="2"/>
+    <REGION seq_beg="271" pdb_beg="271" seq_end="278" pdb_end="278" type="B"/>
+    <REGION seq_beg="279" pdb_beg="279" seq_end="284" pdb_end="284" type="1"/>
+    <REGION seq_beg="285" pdb_beg="285" seq_end="291" pdb_end="291" type="B"/>
+    <REGION seq_beg="292" pdb_beg="292" seq_end="306" pdb_end="306" type="2"/>
+    <REGION seq_beg="307" pdb_beg="307" seq_end="314" pdb_end="314" type="B"/>
+    <REGION seq_beg="315" pdb_beg="315" seq_end="320" pdb_end="320" type="1"/>
+    <REGION seq_beg="321" pdb_beg="321" seq_end="327" pdb_end="327" type="B"/>
+    <REGION seq_beg="328" pdb_beg="328" seq_end="343" pdb_end="343" type="2"/>
+    <REGION seq_beg="344" pdb_beg="344" seq_end="352" pdb_end="352" type="B"/>
+    <REGION seq_beg="353" pdb_beg="353" seq_end="356" pdb_end="356" type="1"/>
+    <REGION seq_beg="357" pdb_beg="357" seq_end="368" pdb_end="368" type="B"/>
+    <REGION seq_beg="369" pdb_beg="369" seq_end="412" pdb_end="412" type="2"/>
+    <REGION seq_beg="413" pdb_beg="413" seq_end="420" pdb_end="420" type="B"/>
+    <REGION seq_beg="421" pdb_beg="421" seq_end="421" pdb_end="421" type="I"/>
+  </CHAIN>
+</pdbtm>
