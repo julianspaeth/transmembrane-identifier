@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed May 30 15:05:28 2018
+
+@author: Juli
+"""
+
+
+import os
+import numpy as np
+import argparse
+import matplotlib.pyplot as plt
+import pickle
+import Bio
+from Bio.PDB import PDBList
+import urllib.request
+import csv
+import random
+
+if __name__ == "__main__":
+    
+    
+    name_lst = []
+    with open("pdb_entry_type.tsv") as fd: 
+        rd = csv.reader(fd, delimiter="\t", quotechar='"') 
+        for row in rd: 
+            name_lst.append(row[0])
+    
+    random.shuffle(name_lst)
+    
+    pdb_ids = name_lst[:10]
+    
+    
+    for i in pdb_ids:   
+    
+        path = "pdbs/" + i + ".pdb"
+        urllib.request.urlretrieve('http://files.rcsb.org/download/'+i+".pdb", path)
+    
+    
+   
