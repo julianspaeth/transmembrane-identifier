@@ -1,6 +1,8 @@
 import numpy as np
 import math
 
+from sklearn.decomposition import PCA
+
 
 def get_rotation(vector):
 	"""
@@ -8,7 +10,7 @@ def get_rotation(vector):
 	such that after the rotation, the vector will align with [0,0,1].
 	:param vector: List of 3 numbers
 	:return: rotation_axis: numpy array of the rotational axis
-	         angle: Rotation angle in rad
+			 angle: Rotation angle in rad
 	"""
 	if np.linalg.norm(vector - np.array([0, 0, 1])) == 0:
 		return np.array([1, 0, 0]), 0
@@ -44,7 +46,7 @@ def make_vectors_sphere(n=100):
 	"""
 	Generates an array of evenly distributed 3D unit vectors using a Fibonacci sphere.
 	Adapted from
-	    https://stackoverflow.com/questions/9600801/evenly-distributing-n-points-on-a-sphere/26127012#26127012
+		https://stackoverflow.com/questions/9600801/evenly-distributing-n-points-on-a-sphere/26127012#26127012
 	:param n: Number of vectors to be generated
 	:return: List of generated vectors
 	"""
@@ -98,23 +100,11 @@ def make_vectors_cone(vector, angle=180, desired_number=100):
 	return selected_vectors
 
 
-def get_plane_vectors(normal):
-	"""
-	From a normal vector, computes 2 orthogonal vectors
-	for spanning the plane of the normal vector
-	:param normal: 3D numpy array
-	:return: v1 - 3D numpy array
-	         v2 - 3D numpy array
-	"""
-	if normal[1] == 0 and normal[2] == 0:
-		if normal[0] == 0:
-			raise ValueError('Normal vector is (0,0,0) -> no plane possible')
-		else:
-			v1 = np.cross(normal, [0, 1, 0])
-			v2 = np.cross(normal, v1)
-			return v1, v2
-	v1 = np.cross(normal, [1, 0, 0])
-	v2 = np.cross(normal, v1)
-	return v1/np.linalg.norm(v1), v2/np.linalg.norm(v2)
-
-get_rotation(np.array([0,1,2]))
+def get_PCA_vector(helices):
+	vectors = []
+	for helix_vector in helices:
+		vectors.append(np.array(helix_vector))
+		vectors.append(-np.array(helix_vector))
+	pca1 = PCA()
+	pca1.fit(vectors)
+	return pca1.components_[0]

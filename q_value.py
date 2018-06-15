@@ -1,7 +1,4 @@
-from Bio.PDB import *
 import freesasa
-import numpy as np
-import matplotlib.pyplot as plt
 
 from pdb_io import *
 from geometry import get_rotation
@@ -58,7 +55,7 @@ def make_slices(model, z_min, z_max):
 	for chain in model:
 		for residue in chain:
 			for atom in residue:
-				if atom.element in ['FE','H', 'MG']:
+				if atom.element in ['FE', 'H', 'MG']:
 					continue
 				slices[int(np.floor(atom.coord[2]))].append(atom)
 	return slices
@@ -165,7 +162,10 @@ def make_residue_dictionary(model):
 		residue_dict[chain.id] = {}
 		for residue in chain:
 			if residue.id[0] == ' ':
-				residue_dict[chain.id][residue.id[1]] = residue['CA']
+				try:
+					residue_dict[chain.id][residue.id[1]] = residue['CA']
+				except KeyError:
+					pass
 	return residue_dict
 
 
@@ -205,9 +205,6 @@ def calc_structure_factor(slice_list, residue_dict, vector):
 			endchain_count += 1
 			continue
 
-		# Residue i
-		curr_res = residue_dict[chain][resi].coord
-
 		# Residue i+3
 		try:
 			next_res = residue_dict[chain][resi + 3].coord
@@ -215,12 +212,18 @@ def calc_structure_factor(slice_list, residue_dict, vector):
 			endchain_count += 1
 			continue
 
+		# Residue i
+		try:
+			curr_res = residue_dict[chain][resi].coord
+		except KeyError:
+			continue
+
 		prev_value = np.dot(vector, prev_res)
 		curr_value = np.dot(vector, curr_res)
 		next_value = np.dot(vector, next_res)
 
-		if (prev_value < curr_value and curr_value < next_value) or (
-				prev_value > curr_value and curr_value > next_value):
+		if (prev_value < curr_value < next_value) or (
+				prev_value > curr_value > next_value):
 			straight_count += 1
 		else:
 			turn_count += 1
@@ -266,20 +269,7 @@ def calc_Q_value(model, vector):
 		hydrophobic_factor = calc_hydrophobic_factor(slice_list, slice_height)
 		structure_factor = calc_structure_factor(slice_list, residue_dict, np.array(vector))
 		slice_scores.append(hydrophobic_factor * structure_factor)
-		#print("Slice: %s\tAtoms: %s\tHydro_factor: %1.3f\tStruc_factor: %1.3f"%
-			  #(slice_height, len(slice_list), hydrophobic_factor, structure_factor))
+		# print("Slice: %s\tAtoms: %s\tHydro_factor: %1.3f\tStruc_factor: %1.3f"%
+		# 	  (slice_height, len(slice_list), hydrophobic_factor, structure_factor))
 
 	return slice_scores, z_min, z_max
-
-
-
-
-
-
-#model1 = parse_PDB('./structures/pdb1u9j.pdb')
-
-#model1 = position_model(model1)
-#z_min, z_max = get_z_bounds(model1)
-
-
-
