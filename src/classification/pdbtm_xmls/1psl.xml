@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="1psl" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2003-08-11</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2004-09-17</DATE>
+    <DESCR>Fragment</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2005-04-06</DATE>
+    <DESCR>Format has been changed to pdbtm format v2.0</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2005-07-21</DATE>
+    <DESCR>Model has been recalculated by TMDET version 2.0</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-10</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>78.04</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Tm_Alpha</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="-0.00000006" Y="0.00000001" Z="8.75000000"/>
+    <TMATRIX>
+      <ROWX X="0.99912751" Y="0.00149555" Z="0.04173762" T="0.74728596"/>
+      <ROWY X="0.00000000" Y="0.99935865" Z="-0.03580911" T="2.04272366"/>
+      <ROWZ X="-0.04176440" Y="0.03577787" Z="0.99848670" T="-0.68183404"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Inside">
+    <NOTE>see TOPDB: AB00462</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      MEKVQYLTRS AIRRASTIEM PQQARQKLQN LFINFCLILI CLLLICIIVM 
+      LL
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="34" pdb_end="34" type="U"/>
+    <REGION seq_beg="35" pdb_beg="35" seq_end="39" pdb_end="39" type="1"/>
+    <REGION seq_beg="40" pdb_beg="40" seq_end="50" pdb_end="50" type="H"/>
+    <REGION seq_beg="51" pdb_beg="51" seq_end="52" pdb_end="52" type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="B" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      MEKVQYLTRS AIRRASTIEM PQQARQKLQN LFINFCLILI CLLLICIIVM 
+      LL
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="34" pdb_end="34" type="U"/>
+    <REGION seq_beg="35" pdb_beg="35" seq_end="39" pdb_end="39" type="1"/>
+    <REGION seq_beg="40" pdb_beg="40" seq_end="50" pdb_end="50" type="H"/>
+    <REGION seq_beg="51" pdb_beg="51" seq_end="52" pdb_end="52" type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="C" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      MEKVQYLTRS AIRRASTIEM PQQARQKLQN LFINFCLILI CLLLICIIVM 
+      LL
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="34" pdb_end="34" type="U"/>
+    <REGION seq_beg="35" pdb_beg="35" seq_end="39" pdb_end="39" type="1"/>
+    <REGION seq_beg="40" pdb_beg="40" seq_end="50" pdb_end="50" type="H"/>
+    <REGION seq_beg="51" pdb_beg="51" seq_end="52" pdb_end="52" type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="D" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      MEKVQYLTRS AIRRASTIEM PQQARQKLQN LFINFCLILI CLLLICIIVM 
+      LL
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="34" pdb_end="34" type="U"/>
+    <REGION seq_beg="35" pdb_beg="35" seq_end="38" pdb_end="38" type="1"/>
+    <REGION seq_beg="39" pdb_beg="39" seq_end="49" pdb_end="49" type="H"/>
+    <REGION seq_beg="50" pdb_beg="50" seq_end="52" pdb_end="52" type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="E" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      MEKVQYLTRS AIRRASTIEM PQQARQKLQN LFINFCLILI CLLLICIIVM 
+      LL
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="34" pdb_end="34" type="U"/>
+    <REGION seq_beg="35" pdb_beg="35" seq_end="38" pdb_end="38" type="1"/>
+    <REGION seq_beg="39" pdb_beg="39" seq_end="49" pdb_end="49" type="H"/>
+    <REGION seq_beg="50" pdb_beg="50" seq_end="52" pdb_end="52" type="2"/>
+  </CHAIN>
+</pdbtm>

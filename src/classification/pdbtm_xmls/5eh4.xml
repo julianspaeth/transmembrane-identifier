@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="5eh4" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2016-01-03</CREATE_DATE>
+  <RAWRES>
+    <TMRES>46.30</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+    <PDBKWORD>Membrane</PDBKWORD>
+  </RAWRES>
+  <BIOMATRIX>
+    <DELETE CHAINID="C"/>
+    <DELETE CHAINID="D"/>
+  </BIOMATRIX>
+  <MEMBRANE>
+    <NORMAL X="0.00000043" Y="-0.00000075" Z="17.50000000"/>
+    <TMATRIX>
+      <ROWX X="0.97363549" Y="-0.02779427" Z="0.22640988" T="-37.26762772"/>
+      <ROWY X="0.00000000" Y="0.99254900" Z="0.12184617" T="-23.65912628"/>
+      <ROWZ X="-0.22810952" Y="-0.11863375" Z="0.96638095" T="-5.69265890"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      EPEITLIIFG VIAGVIGTIL LISYGIRRL? 
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="70"  seq_end="4" pdb_end="73"  type="2"/>
+    <REGION seq_beg="5" pdb_beg="74"  seq_end="29" pdb_end="98"  type="H"/>
+    <REGION seq_beg="30" pdb_beg="99"  seq_end="30" pdb_end="99"  type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="B" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      EPEITLIIFG VIAGVIGTIL LISYGIRRL? 
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="70"  seq_end="4" pdb_end="73"  type="2"/>
+    <REGION seq_beg="5" pdb_beg="74"  seq_end="27" pdb_end="96"  type="H"/>
+    <REGION seq_beg="28" pdb_beg="97"  seq_end="30" pdb_end="99"  type="1"/>
+  </CHAIN>
+</pdbtm>

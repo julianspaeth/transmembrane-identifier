@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2mic" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2015-01-20</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2015-01-20</DATE>
+    <DESCR>Fragment.</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>42.80</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000044" Y="-0.00000006" Z="15.50000000"/>
+    <TMATRIX>
+      <ROWX X="0.76787257" Y="-0.03684775" Z="-0.63954210" T="5.43637085"/>
+      <ROWY X="0.00000000" Y="0.99834430" Z="-0.05752044" T="13.94665718"/>
+      <ROWZ X="0.64060271" Y="0.04416837" Z="0.76660120" T="16.58938980"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      MTRGTTDNLI PVYCSILAAV VVGLVAYIAF KRWNSSKQNK Q
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1"  seq_end="12" pdb_end="12"  type="2"/>
+    <REGION seq_beg="13" pdb_beg="13"  seq_end="33" pdb_end="33"  type="H"/>
+    <REGION seq_beg="34" pdb_beg="34"  seq_end="37" pdb_end="37"  type="1"/>
+    <REGION seq_beg="38" pdb_beg="38"  seq_end="41" pdb_end="41"  type="I"/>
+  </CHAIN>
+  <CHAIN CHAINID="B" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      MTRGTTDNLI PVYCSILAAV VVGLVAYIAF KRWNSSKQNK Q
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="101"  seq_end="12" pdb_end="112"  type="2"/>
+    <REGION seq_beg="13" pdb_beg="113"  seq_end="33" pdb_end="133"  type="H"/>
+    <REGION seq_beg="34" pdb_beg="134"  seq_end="37" pdb_end="137"  type="1"/>
+    <REGION seq_beg="38" pdb_beg="138"  seq_end="41" pdb_end="141"  type="I"/>
+  </CHAIN>
+</pdbtm>

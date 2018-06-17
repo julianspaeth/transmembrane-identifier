@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2vt4" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2008-07-02</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2012-06-18</DATE>
+    <DESCR>Interfacial helix detected.</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-13</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>72.55</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+  </RAWRES>
+  <BIOMATRIX>
+    <DELETE CHAINID="C"/>
+    <DELETE CHAINID="D"/>
+    <DELETE CHAINID="B"/>
+  </BIOMATRIX>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="16.25000000"/>
+    <TMATRIX>
+      <ROWX X="0.38653868" Y="0.85465282" Z="-0.34663591" T="-13.85991859"/>
+      <ROWY X="0.00000000" Y="0.37584946" Z="0.92668074" T="-32.76780701"/>
+      <ROWZ X="0.92227322" Y="-0.35819796" Z="0.14528036" T="-8.65471649"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Outside">
+    <NOTE>by similarity to chain: A (see TOPDB: AP00016)</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="7" TYPE="alpha">
+    <SEQ>
+      MGAELLSQQW EAGMSLLMAL VVLLIVAGNV LVIAAIGSTQ RLQTLTNLFI 
+      TSLACADLVV GLLVVPFGAT LVVRGTWLWG SFLCELWTSL DVLCVTASIE 
+      TLCVIAIDRY LAITSPFRYQ SLMTRARAKV IICTVWAISA LVSFLPIMMH 
+      WWRDEDPQAL KCYQDPGCCD FVTNRAYAIA SSIISFYIPL LIMIFVALRV 
+      YREAKEQIRK IDRASKRKRV MLMREHKALK TLGIIMGVFT LCWLPFFLVN 
+      IVNVFNRDLV PDWLFVAFNW LGYANSAMNP IIYCRSPDFR KAFKRLLAFP 
+      RKADRRLHHH HHH
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="31" seq_end="9" pdb_end="39" type="U"/>
+    <REGION seq_beg="10" pdb_beg="40" seq_end="10" pdb_end="40" type="1"/>
+    <REGION seq_beg="11" pdb_beg="41" seq_end="33" pdb_end="63" type="H"/>
+    <REGION seq_beg="34" pdb_beg="64" seq_end="51" pdb_end="81" type="2"/>
+    <REGION seq_beg="52" pdb_beg="82" seq_end="73" pdb_end="103" type="H"/>
+    <REGION seq_beg="74" pdb_beg="104" seq_end="77" pdb_end="107" type="1"/>
+    <REGION seq_beg="78" pdb_beg="108" seq_end="103" pdb_end="133" type="H"/>
+    <REGION seq_beg="104" pdb_beg="134" seq_end="132" pdb_end="162" type="2"/>
+    <REGION seq_beg="133" pdb_beg="163" seq_end="154" pdb_end="184" type="H"/>
+    <REGION seq_beg="155" pdb_beg="185" seq_end="156" pdb_end="186" type="1"/>
+    <REGION seq_beg="157" pdb_beg="187" seq_end="164" pdb_end="194" type="F"/>
+    <REGION seq_beg="165" pdb_beg="195" seq_end="169" pdb_end="199" type="1"/>
+    <REGION seq_beg="170" pdb_beg="200" seq_end="195" pdb_end="225" type="H"/>
+    <REGION seq_beg="196" pdb_beg="226" seq_end="208" pdb_end="238" type="2"/>
+    <REGION seq_beg="209" pdb_beg="239" seq_end="223" pdb_end="253" type="U"/>
+    <REGION seq_beg="224" pdb_beg="284" seq_end="233" pdb_end="293" type="2"/>
+    <REGION seq_beg="234" pdb_beg="294" seq_end="256" pdb_end="316" type="H"/>
+    <REGION seq_beg="257" pdb_beg="317" seq_end="262" pdb_end="322" type="1"/>
+    <REGION seq_beg="263" pdb_beg="323" seq_end="282" pdb_end="342" type="H"/>
+    <REGION seq_beg="283" pdb_beg="343" seq_end="286" pdb_end="346" type="2"/>
+    <REGION seq_beg="287" pdb_beg="347" seq_end="296" pdb_end="356" type="F"/>
+    <REGION seq_beg="297" pdb_beg="357" seq_end="298" pdb_end="358" type="2"/>
+    <REGION seq_beg="299" pdb_beg="359" seq_end="313" pdb_end="373" type="U"/>
+  </CHAIN>
+</pdbtm>

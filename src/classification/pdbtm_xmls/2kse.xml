@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2kse" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2010-03-03</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2010-03-03</DATE>
+    <DESCR>Fragment.</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-06-06</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>74.49</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="13.50000000"/>
+    <TMATRIX>
+      <ROWX X="0.99520379" Y="-0.09542532" Z="0.02152722" T="-0.64690959"/>
+      <ROWY X="0.00000000" Y="0.22006215" Z="0.97548586" T="2.27871537"/>
+      <ROWZ X="-0.09782337" Y="-0.97080719" Z="0.21900669" T="1.05353808"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Outside">
+    <NOTE>According to 20498088/QseC has two transmembrane (TM) helices with an intervening 130 amino acid periplasmic sensor domain</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MGKFTQRLSL RVRLTLIFLI LASVTWLLSS FVAWKQTTDN VDELFDTQLM 
+      LFAKRLSTLD LNEINAADRM AQTPNRLKHG HVDDDALTFA IFTHDGRMVL 
+      NDGDNGEDIP YSYQREGFAD GQLVGEDDPW RFVWMTSPDG KYRIVVGQEW 
+      EYREDMALAI VAGQLIPWLV ALPIMLIIMM VLLGRE
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="17" pdb_end="17" type="2"/>
+    <REGION seq_beg="18" pdb_beg="18" seq_end="34" pdb_end="34" type="H"/>
+    <REGION seq_beg="35" pdb_beg="35" seq_end="40" pdb_end="40" type="1"/>
+    <REGION seq_beg="41" pdb_beg="41" seq_end="149" pdb_end="149" type="U"/>
+    <REGION seq_beg="150" pdb_beg="150" seq_end="160" pdb_end="160" type="1"/>
+    <REGION seq_beg="161" pdb_beg="161" seq_end="177" pdb_end="177" type="H"/>
+    <REGION seq_beg="178" pdb_beg="178" seq_end="186" pdb_end="186" type="2"/>
+  </CHAIN>
+</pdbtm>

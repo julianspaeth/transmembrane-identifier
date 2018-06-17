@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2mpn" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2014-07-05</CREATE_DATE>
+  <RAWRES>
+    <TMRES>67.29</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+    <PDBKWORD>Membrane</PDBKWORD>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="-0.00000004" Y="-0.00000013" Z="17.50000000"/>
+    <TMATRIX>
+      <ROWX X="0.99990225" Y="-0.01394313" Z="-0.00110975" T="-0.17202577"/>
+      <ROWY X="0.00000000" Y="0.07934014" Z="-0.99684763" T="40.98123550"/>
+      <ROWZ X="0.01398723" Y="0.99675018" Z="0.07933238" T="-7.01870012"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <CHAIN CHAINID="A" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      KSQPLPLMRQ VQIAAGGLIL IGVVLGYTVN SGFFLLSGFV GAGLLFAGIS 
+      GFSGMARLLD KMPWNQRA
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="106"  seq_end="6" pdb_end="111"  type="1"/>
+    <REGION seq_beg="7" pdb_beg="112"  seq_end="32" pdb_end="137"  type="H"/>
+    <REGION seq_beg="33" pdb_beg="138"  seq_end="35" pdb_end="140"  type="2"/>
+    <REGION seq_beg="36" pdb_beg="141"  seq_end="63" pdb_end="168"  type="H"/>
+    <REGION seq_beg="64" pdb_beg="169"  seq_end="68" pdb_end="173"  type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="B" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      KSQPLPLMRQ VQIAAGGLIL IGVVLGYTVN SGFFLLSGFV GAGLLFAGIS 
+      GFSGMARLLD KMPWNQRA
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="106"  seq_end="6" pdb_end="111"  type="1"/>
+    <REGION seq_beg="7" pdb_beg="112"  seq_end="32" pdb_end="137"  type="H"/>
+    <REGION seq_beg="33" pdb_beg="138"  seq_end="35" pdb_end="140"  type="2"/>
+    <REGION seq_beg="36" pdb_beg="141"  seq_end="61" pdb_end="166"  type="H"/>
+    <REGION seq_beg="62" pdb_beg="167"  seq_end="68" pdb_end="173"  type="1"/>
+  </CHAIN>
+</pdbtm>

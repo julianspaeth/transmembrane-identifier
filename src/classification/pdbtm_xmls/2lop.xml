@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2lop" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2012-09-13</CREATE_DATE>
+  <RAWRES>
+    <TMRES>65.62</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+    <PDBKWORD>Membrane</PDBKWORD>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="13.25000000"/>
+    <TMATRIX>
+      <ROWX X="0.99451536" Y="-0.10171331" Z="-0.02436326" T="2.50722504"/>
+      <ROWY X="0.00067223" Y="0.23915091" Z="-0.97098213" T="-2.38985777"/>
+      <ROWZ X="0.10458831" Y="0.96564031" Z="0.23790762" T="0.85630274"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <CHAIN CHAINID="A" NUM_TM="3" TYPE="alpha">
+    <SEQ>
+      MTSLYKKVGM DLIGFGYAAL VTFGSIFGYK RRGGVPSLIA GLFVGCLAGY 
+      GAYRVSNDKR DVKVSLFTAF FLATIMGVRF KRSKKIMPAG LVAGLSLMMI 
+      LRLVLLLL
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="-8"  seq_end="9" pdb_end="0"  type="U"/>
+    <REGION seq_beg="10" pdb_beg="1"  seq_end="19" pdb_end="10"  type="1"/>
+    <REGION seq_beg="20" pdb_beg="11"  seq_end="51" pdb_end="42"  type="H"/>
+    <REGION seq_beg="52" pdb_beg="43"  seq_end="62" pdb_end="53"  type="2"/>
+    <REGION seq_beg="63" pdb_beg="54"  seq_end="78" pdb_end="69"  type="H"/>
+    <REGION seq_beg="79" pdb_beg="70"  seq_end="86" pdb_end="77"  type="1"/>
+    <REGION seq_beg="87" pdb_beg="78"  seq_end="105" pdb_end="96"  type="H"/>
+    <REGION seq_beg="106" pdb_beg="97"  seq_end="108" pdb_end="99"  type="2"/>
+  </CHAIN>
+</pdbtm>

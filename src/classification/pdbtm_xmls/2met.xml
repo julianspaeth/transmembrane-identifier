@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2met" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2014-07-31</CREATE_DATE>
+  <RAWRES>
+    <TMRES>63.28</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>no</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="-0.00000053" Y="-0.00000010" Z="18.00000000"/>
+    <TMATRIX>
+      <ROWX X="0.73443943" Y="0.36919937" Z="-0.56946528" T="7.22586346"/>
+      <ROWY X="0.00000000" Y="0.83908474" Z="0.54400074" T="5.71228695"/>
+      <ROWZ X="0.67867434" Y="-0.39953560" Z="0.61625689" T="19.52558517"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      EKTNLEIIIL EGTAVIAMFF WLLLVIILRT VKRANGG
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1"  seq_end="4" pdb_end="4"  type="2"/>
+    <REGION seq_beg="5" pdb_beg="5"  seq_end="32" pdb_end="32"  type="H"/>
+    <REGION seq_beg="33" pdb_beg="33"  seq_end="37" pdb_end="37"  type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="B" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      EKTNLEIIIL EGTAVIAMFF WLLLVIILRT VKRANGG
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="101"  seq_end="4" pdb_end="104"  type="2"/>
+    <REGION seq_beg="5" pdb_beg="105"  seq_end="31" pdb_end="131"  type="H"/>
+    <REGION seq_beg="32" pdb_beg="132"  seq_end="37" pdb_end="137"  type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="C" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      EKTNLEIIIL EGTAVIAMFF WLLLVIILRT VKRANGG
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="201"  seq_end="4" pdb_end="204"  type="2"/>
+    <REGION seq_beg="5" pdb_beg="205"  seq_end="32" pdb_end="232"  type="H"/>
+    <REGION seq_beg="33" pdb_beg="233"  seq_end="37" pdb_end="237"  type="1"/>
+  </CHAIN>
+</pdbtm>

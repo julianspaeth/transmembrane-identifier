@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="4rng" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2014-12-01</CREATE_DATE>
+  <RAWRES>
+    <TMRES>76.16</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>no</PDBKWRES>
+  </RAWRES>
+  <BIOMATRIX>
+    <DELETE CHAINID="B"/>
+    <DELETE CHAINID="D"/>
+    <DELETE CHAINID="E"/>
+    <DELETE CHAINID="F"/>
+  </BIOMATRIX>
+  <MEMBRANE>
+    <NORMAL X="-1.17380130" Y="-1.40588284" Z="15.89483261"/>
+    <TMATRIX>
+      <ROWX X="0.99730539" Y="-0.00646362" Z="0.07307729" T="30.22322273"/>
+      <ROWY X="0.00000000" Y="0.99611121" Z="0.08810509" T="90.86332703"/>
+      <ROWZ X="-0.07336258" Y="-0.08786768" Z="0.99342704" T="-36.22335052"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <CHAIN CHAINID="A" NUM_TM="3" TYPE="alpha">
+    <SEQ>
+      MEFSIDLNNL IGIIAGAITT SALIPQALKI YKTKSARDVS LAMFIFMAIG 
+      ITLWFFYGVL IKEIPVILAN LISLILIFLI IFMKIRYGHH HHHH
+    </SEQ>
+    <REGION seq_beg="6" pdb_beg="6"  seq_end="9" pdb_end="9"  type="2"/>
+    <REGION seq_beg="10" pdb_beg="10"  seq_end="31" pdb_end="31"  type="H"/>
+    <REGION seq_beg="32" pdb_beg="32"  seq_end="39" pdb_end="39"  type="1"/>
+    <REGION seq_beg="40" pdb_beg="40"  seq_end="58" pdb_end="58"  type="H"/>
+    <REGION seq_beg="59" pdb_beg="59"  seq_end="64" pdb_end="64"  type="2"/>
+    <REGION seq_beg="65" pdb_beg="65"  seq_end="86" pdb_end="86"  type="H"/>
+    <REGION seq_beg="87" pdb_beg="87"  seq_end="87" pdb_end="87"  type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="C" NUM_TM="3" TYPE="alpha">
+    <SEQ>
+      MEFSIDLNNL IGIIAGAITT SALIPQALKI YKTKSARDVS LAMFIFMAIG 
+      ITLWFFYGVL IKEIPVILAN LISLILIFLI IFMKIRYGHH HHHH
+    </SEQ>
+    <REGION seq_beg="6" pdb_beg="6"  seq_end="11" pdb_end="11"  type="2"/>
+    <REGION seq_beg="12" pdb_beg="12"  seq_end="31" pdb_end="31"  type="H"/>
+    <REGION seq_beg="32" pdb_beg="32"  seq_end="39" pdb_end="39"  type="1"/>
+    <REGION seq_beg="40" pdb_beg="40"  seq_end="59" pdb_end="59"  type="H"/>
+    <REGION seq_beg="60" pdb_beg="60"  seq_end="64" pdb_end="64"  type="2"/>
+    <REGION seq_beg="65" pdb_beg="65"  seq_end="85" pdb_end="85"  type="H"/>
+    <REGION seq_beg="86" pdb_beg="86"  seq_end="88" pdb_end="88"  type="1"/>
+  </CHAIN>
+</pdbtm>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="4p6j" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2015-01-20</CREATE_DATE>
+  <RAWRES>
+    <TMRES>72.14</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+    <PDBKWORD>Membrane</PDBKWORD>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="14.25000000"/>
+    <TMATRIX>
+      <ROWX X="0.99969631" Y="0.00900791" Z="0.02293638" T="8.32462502"/>
+      <ROWY X="0.00000000" Y="0.93079025" Z="-0.36555368" T="-3.60885811"/>
+      <ROWZ X="-0.02464183" Y="0.36544266" Z="0.93050760" T="8.83262348"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      Y?KEIAHALF SALFALSELY IAVRY?
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1"  seq_end="3" pdb_end="3"  type="2"/>
+    <REGION seq_beg="4" pdb_beg="4"  seq_end="23" pdb_end="23"  type="H"/>
+    <REGION seq_beg="24" pdb_beg="24"  seq_end="25" pdb_end="25"  type="1"/>
+    <REGION seq_beg="26" pdb_beg="26"  seq_end="26" pdb_end="26"  type="U"/>
+  </CHAIN>
+  <CHAIN CHAINID="B" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      Y?KEIAHALF SALFALSELY IAVRY?
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1"  seq_end="4" pdb_end="4"  type="1"/>
+    <REGION seq_beg="5" pdb_beg="5"  seq_end="22" pdb_end="22"  type="H"/>
+    <REGION seq_beg="23" pdb_beg="23"  seq_end="25" pdb_end="25"  type="2"/>
+    <REGION seq_beg="26" pdb_beg="26"  seq_end="26" pdb_end="26"  type="U"/>
+  </CHAIN>
+</pdbtm>

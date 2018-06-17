@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2l91" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2012-01-06</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2012-01-06</DATE>
+    <DESCR>Fragment.</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-10</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>61.67</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="18.00000000"/>
+    <TMATRIX>
+      <ROWX X="0.91647315" Y="0.39592841" Z="-0.05759808" T="-36.10714722"/>
+      <ROWY X="0.09158310" Y="-0.06745964" Z="0.99350977" T="-1.56494474"/>
+      <ROWZ X="0.38947326" Y="-0.91580009" Z="-0.09808533" T="-20.74288940"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Inside">
+    <NOTE>by similarity to chain: A (see TOPDB: AB00777)</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      PESPKGPDIL VVLLSVMGAI LLIGLAPLLI WALLITIHDR KEF
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="685" seq_end="4" pdb_end="688" type="2"/>
+    <REGION seq_beg="5" pdb_beg="689" seq_end="27" pdb_end="711" type="H"/>
+    <REGION seq_beg="28" pdb_beg="712" seq_end="43" pdb_end="727" type="1"/>
+  </CHAIN>
+</pdbtm>

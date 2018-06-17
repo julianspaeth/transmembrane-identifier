@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2f75" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2006-01-12</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2012-06-15</DATE>
+    <DESCR>Interfacial helix detected.</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-10</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>76.74</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="16.25000000"/>
+    <TMATRIX>
+      <ROWX X="0.91323936" Y="0.38466540" Z="0.13426213" T="-46.05441284"/>
+      <ROWY X="-0.02064567" Y="0.37280852" Z="-0.92767859" T="-8.46940613"/>
+      <ROWZ X="-0.40689993" Y="0.84442067" Z="0.34840512" T="-3.24345422"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Inside">
+    <NOTE>see TOPDB: AP00559</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="7" TYPE="alpha">
+    <SEQ>
+      MVLLSENASE GSNCTHPPAP VNISKAILLG VILGGLIIFG VLGNILVILS 
+      VACHRHLHSV THYYIVNLAV ADLLLTSTVL PFSAIFEILG YWAFGRVFCN 
+      IWAAVDVLCC TASIMGLCII SIDRYIGVSY PLRYPTIVTQ RRGVRALLCV 
+      WVLSLVISIG PLFGWRQPAP EDETICQINE EPGYVLFSAL GSFYVPLAII 
+      LVMYCRVYVV AKRESRGLKS GLKTDKSDSE QVTLRIHRKN VPAEGGGVSS 
+      AKNKTHFSVR LLKFSREKKA AKTLGIVVGC FVLCWLPFFL VMPIGSFFPD 
+      FKPSETVFKI VFWLGYLNSC INPIIYPCSS QEFKKAFQNV LRIQCLRRRQ 
+      SSKHALGYTL HPPSQALEGQ HRDMVRIPVG SGETFYKISK TDGVCEWKFF 
+      SSMPQGSARI TVPKDQSACT TARVRSKSFL QVCCCVGSSA PRPEENHQVP 
+      TIKIHTISLG ENGEEV
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="35" pdb_end="35" type="U"/>
+    <REGION seq_beg="36" pdb_beg="36" seq_end="36" pdb_end="36" type="2"/>
+    <REGION seq_beg="37" pdb_beg="37" seq_end="49" pdb_end="49" type="H"/>
+    <REGION seq_beg="50" pdb_beg="50" seq_end="64" pdb_end="64" type="1"/>
+    <REGION seq_beg="65" pdb_beg="65" seq_end="87" pdb_end="87" type="H"/>
+    <REGION seq_beg="88" pdb_beg="88" seq_end="97" pdb_end="97" type="2"/>
+    <REGION seq_beg="98" pdb_beg="98" seq_end="120" pdb_end="120" type="H"/>
+    <REGION seq_beg="121" pdb_beg="121" seq_end="144" pdb_end="144" type="1"/>
+    <REGION seq_beg="145" pdb_beg="145" seq_end="169" pdb_end="169" type="H"/>
+    <REGION seq_beg="170" pdb_beg="170" seq_end="182" pdb_end="182" type="2"/>
+    <REGION seq_beg="183" pdb_beg="183" seq_end="202" pdb_end="202" type="H"/>
+    <REGION seq_beg="203" pdb_beg="203" seq_end="273" pdb_end="273" type="1"/>
+    <REGION seq_beg="274" pdb_beg="274" seq_end="293" pdb_end="293" type="H"/>
+    <REGION seq_beg="294" pdb_beg="294" seq_end="305" pdb_end="305" type="2"/>
+    <REGION seq_beg="306" pdb_beg="306" seq_end="326" pdb_end="326" type="H"/>
+    <REGION seq_beg="327" pdb_beg="327" seq_end="330" pdb_end="330" type="1"/>
+    <REGION seq_beg="331" pdb_beg="331" seq_end="340" pdb_end="340" type="F"/>
+    <REGION seq_beg="341" pdb_beg="341" seq_end="341" pdb_end="341" type="1"/>
+    <REGION seq_beg="342" pdb_beg="342" seq_end="466" pdb_end="466" type="U"/>
+  </CHAIN>
+</pdbtm>

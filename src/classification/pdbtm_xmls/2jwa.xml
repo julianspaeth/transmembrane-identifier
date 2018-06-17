@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2jwa" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2008-01-24</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2008-01-24</DATE>
+    <DESCR>Fragment.</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>54.15</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000041" Y="0.00000026" Z="18.00000000"/>
+    <TMATRIX>
+      <ROWX X="0.91807151" Y="-0.38986108" Z="0.07178480" T="0.00278234"/>
+      <ROWY X="0.00000000" Y="0.18108507" Z="0.98346746" T="0.00201273"/>
+      <ROWZ X="-0.39641482" Y="-0.90289342" Z="0.16624904" T="-2.84138131"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      GCPAEQRASP LTSIISAVVG ILLVVVLGVV FGILIKRRQQ KIRK
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="41"  seq_end="14" pdb_end="54"  type="1"/>
+    <REGION seq_beg="15" pdb_beg="55"  seq_end="39" pdb_end="79"  type="H"/>
+    <REGION seq_beg="40" pdb_beg="80"  seq_end="44" pdb_end="84"  type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="B" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      GCPAEQRASP LTSIISAVVG ILLVVVLGVV FGILIKRRQQ KIRK
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="141"  seq_end="14" pdb_end="154"  type="1"/>
+    <REGION seq_beg="15" pdb_beg="155"  seq_end="39" pdb_end="179"  type="H"/>
+    <REGION seq_beg="40" pdb_beg="180"  seq_end="44" pdb_end="184"  type="2"/>
+  </CHAIN>
+</pdbtm>
