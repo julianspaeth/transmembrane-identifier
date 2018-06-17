@@ -4,13 +4,9 @@ import collections
 import matplotlib.pyplot as plt
 import sklearn
 
-helices = pd.read_csv("training_data_new.csv")
+helices = pd.read_csv("../data/training_data_new.csv")
 helices = helices.drop_duplicates()
 helices = helices.dropna()
-
-print("Numpy:",np.__version__)
-print("Sklearn:",sklearn.__version__)
-
 
 aas = ['A', 'R', 'N', 'D', 'C', 'Q', 'E', 'H', 'I', 'G', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V']
 
@@ -20,12 +16,12 @@ def sort_dict_by_key(mydict):
            sorted_dict[key] = mydict[key]
     return sorted_dict
 
-helices = pd.read_csv("training_data_new.csv")
+helices = pd.read_csv("../data/training_data_new.csv")
 helices = helices.drop_duplicates()
 helices = helices.dropna()
 nontm_helices = helices.loc[helices["Is Transmembrane"] == -1.0]
 tm_helices = helices[helices["Is Transmembrane"] == 1.0]
-nontm_protein_helices = pd.read_csv("helices_in_non_tm_proteins.csv")
+nontm_protein_helices = pd.read_csv("../data/helices_in_non_tm_proteins.csv")
 lengths = []
 for index, row in nontm_protein_helices.iterrows():
     lengths.append(row["Helix Length"] + 1)
@@ -51,8 +47,8 @@ tm, nontm = plt.bar(x, [tm_helices.shape[0], nontm_helices.shape[0]+ nontm_prote
 tm.set_color('r')
 plt.xticks(x, ('Transmembrane', 'Non-Transmembrane'))
 plt.ylim(0,60000)
-plt.savefig("figures/samples.pdf")
-plt.savefig("figures/samples.png")
+plt.savefig("../figures/samples.pdf")
+plt.savefig("../figures/samples.png")
 plt.show()
 
 # Plot amino acid distribution of transmembrane helices
@@ -70,8 +66,8 @@ plt.title("TM helices Amino Acid Frequency")
 plt.xlabel("Amino Acids")
 plt.ylabel("Frequency (%)")
 plt.ylim([0, 20])
-plt.savefig('figures/tm_aa_distribution.png')
-plt.savefig('figures/tm_aa_distribution.pdf')
+plt.savefig('../figures/tm_aa_distribution.png')
+plt.savefig('../figures/tm_aa_distribution.pdf')
 plt.show()
 
 # Plot amino acid distribution of non-transmembrane helices
@@ -89,8 +85,8 @@ plt.title("Non-TM helices Amino Acid Frequency")
 plt.xlabel("Amino Acids")
 plt.ylabel("Frequency (%)")
 plt.ylim([0, 20])
-plt.savefig('figures/nontm_aa_distribution.png')
-plt.savefig('figures/nontm_aa_distribution.pdf')
+plt.savefig('../figures/nontm_aa_distribution.png')
+plt.savefig('../figures/nontm_aa_distribution.pdf')
 plt.show()
 
 # Plot comparison of amino acid distribution of helices
@@ -147,8 +143,8 @@ neg_helix_length = list(negative_samples["Helix Length"])
 f5 = plt.figure()
 plt.hist(tm_helix_length, bins=range(5,50), color='red', density=True)
 plt.hist(neg_helix_length, bins=range(5,50), alpha=0.5, density=True)
-plt.savefig('figures/helix_length.png')
-plt.savefig('figures/helix_length.pdf')
+plt.savefig('../figures/helix_length.png')
+plt.savefig('../figures/helix_length.pdf')
 plt.show()
 
 f6 = plt.figure()
@@ -160,6 +156,6 @@ plt.title("Non-TM helices Amino Acid Frequency")
 plt.xlabel("Amino Acids")
 plt.ylabel("Frequency (%)")
 plt.ylim([0, 20])
-plt.savefig('figures/nontm_aa_distribution.png')
-plt.savefig('figures/nontm_aa_distribution.pdf')
+plt.savefig('../figures/nontm_aa_distribution.png')
+plt.savefig('../figures/nontm_aa_distribution.pdf')
 plt.show()

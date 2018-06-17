@@ -71,7 +71,7 @@ def parse_pdbtm_xmls(paths):
 
 
 paths = []
-for file in os.listdir("pdbtm_xmls"):
+for file in os.listdir("../pdbtm_xmls"):
     if file.endswith(".xml"):
         path = os.path.join("pdbtm_xmls", file)
         paths.append(path.strip())
@@ -88,7 +88,7 @@ for pdbtm in pdbtms:
                 if region.typ == "H":
                     dic[pdbtm.id][chain.id].append([int(region.pdb_beg), int(region.pdb_end)])
 
-pdb_data = pd.read_csv("test_helices.csv")
+pdb_data = pd.read_csv("../data/test_helices.csv")
 print(pdb_data.shape)
 
 
@@ -116,5 +116,5 @@ for index, row in pdb_data.iterrows():
         pass
 
 pdb_data.sort_values(["PDB ID", "Chain", "Is Transmembrane"], ascending=[True, True, True], inplace=True)
-pdb_data.to_csv("training_data_new.csv", sep=',', encoding='utf-8', index=False)
+pdb_data.to_csv("../data/training_data_new.csv", sep=',', encoding='utf-8', index=False)
 

@@ -1,7 +1,6 @@
 from sklearn.model_selection import train_test_split
 from sklearn import svm
-from sklearn.metrics import accuracy_score, matthews_corrcoef, f1_score, classification_report
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import accuracy_score, matthews_corrcoef, f1_score, classification_report, confusion_matrix
 
 import pandas as pd
 import numpy as np
@@ -9,14 +8,14 @@ from sklearn.externals import joblib
 
 # Load training data
 
-helices = pd.read_csv("training_data.csv")
+helices = pd.read_csv("../data/training_data_new.csv")
 helices = helices.drop_duplicates()
 helices = helices.dropna()
 nontm_helices = helices.loc[helices["Is Transmembrane"] == -1.0]
 print(nontm_helices.shape)
 helices = helices[helices["Is Transmembrane"] != -1.0]
 print(helices.shape)
-nontm_protein_helices = pd.read_csv("helices_in_non_tm_proteins.csv")
+nontm_protein_helices = pd.read_csv("../data/helices_in_non_tm_proteins.csv")
 lengths = []
 for index, row in nontm_protein_helices.iterrows():
     lengths.append(row["Helix Length"] + 1)
@@ -87,7 +86,7 @@ print(svc.coef_[0])
 print("RBF SVM")
 svc = svm.SVC(kernel="rbf", class_weight="balanced", C=100, gamma=0.1)
 svc.fit(X_train, y_train)
-joblib.dump(svc, 'svm.pkl')
+joblib.dump(svc, '../tm_helix_predictor/svm_c100_g01.pkl')
 print("Predict test data")
 y_pred = svc.predict(X_test)
 tn, fp, fn, tp = confusion_matrix(y_test, y_pred).ravel()

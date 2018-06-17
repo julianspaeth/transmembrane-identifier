@@ -7,14 +7,14 @@ from sklearn.svm import SVC
 
 # Load training data
 
-helices = pd.read_csv("training_data_new.csv")
+helices = pd.read_csv("../data/training_data_new.csv")
 helices = helices.drop_duplicates()
 helices = helices.dropna()
 nontm_helices = helices.loc[helices["Is Transmembrane"] == -1.0]
 print(nontm_helices.shape)
 helices = helices[helices["Is Transmembrane"] != -1.0]
 print(helices.shape)
-nontm_protein_helices = pd.read_csv("helices_in_non_tm_proteins.csv")
+nontm_protein_helices = pd.read_csv("../data/helices_in_non_tm_proteins.csv")
 nontm_protein_helices = nontm_protein_helices.replace(0, -1.0)
 nontm_protein_helices = nontm_protein_helices.drop_duplicates()
 nontm_protein_helices = nontm_protein_helices.dropna()
