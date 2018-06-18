@@ -28,6 +28,10 @@ nontm_protein_helices = nontm_protein_helices.drop_duplicates()
 nontm_protein_helices = nontm_protein_helices.dropna()
 print(nontm_protein_helices.shape)
 
+print("Positive Samples:", str(helices.shape[0]))
+print("Negative Samples:", str(nontm_helices.shape[0]+nontm_protein_helices.shape[0]))
+print("Overall Samples:", str(helices.shape[0]+nontm_protein_helices.shape[0]+nontm_helices.shape[0]))
+
 
 
 #full_data.to_csv("full_data.csv", sep=',', encoding='utf-8', index=False)
@@ -79,14 +83,14 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 print("TN:",tn,"TP:",tp,"FN:",fn,"FP:",fp)
 print("MCC:", matthews_corrcoef(y_test, y_pred))
 print("F1-Score:", f1_score(y_test, y_pred))
-#print(classification_report(y_test, y_pred))
+print(classification_report(y_test, y_pred))
 
 print(svc.coef_[0])
 
 print("RBF SVM")
 svc = svm.SVC(kernel="rbf", class_weight="balanced", C=100, gamma=0.1)
 svc.fit(X_train, y_train)
-joblib.dump(svc, '../tm_helix_predictor/svm_c100_g01.pkl')
+#joblib.dump(svc, '../tm_helix_predictor/svm_c100_g01.pkl')
 print("Predict test data")
 y_pred = svc.predict(X_test)
 tn, fp, fn, tp = confusion_matrix(y_test, y_pred).ravel()
@@ -97,8 +101,6 @@ print("TN:",tn,"TP:",tp,"FN:",fn,"FP:",fp)
 print("MCC:", matthews_corrcoef(y_test, y_pred))
 print("F1-Score:", f1_score(y_test, y_pred))
 print(classification_report(y_test, y_pred))
-
-print(svc.coef_[0])
 
 #print("RBF optimized SVM")
 #svc = svm.SVC(kernel="rbf", C=100, gamma=0.1,  class_weight="balanced")

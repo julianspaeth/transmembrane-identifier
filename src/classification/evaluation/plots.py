@@ -44,7 +44,8 @@ print("Non TM protein helices:",nontm_protein_helices.shape[0])
 f1 = plt.figure()
 x = np.arange(2)
 tm, nontm = plt.bar(x, [tm_helices.shape[0], nontm_helices.shape[0]+ nontm_protein_helices.shape[0]])
-tm.set_color('r')
+tm.set_color('#44bb22')
+nontm.set_color('#4466dd')
 plt.xticks(x, ('Transmembrane', 'Non-Transmembrane'))
 plt.ylim(0,60000)
 plt.savefig("../figures/samples.pdf")
@@ -60,9 +61,8 @@ for key in tm_helix_aas.keys():
 tm_helix_aas = sort_dict_by_key(tm_helix_aas)
 
 f2 = plt.figure()
-plt.bar(range(len(tm_helix_aas)), list(tm_helix_aas.values()), align='center', color='r')
+plt.bar(range(len(tm_helix_aas)), list(tm_helix_aas.values()), align='center', color='#44bb22')
 plt.xticks(range(len(tm_helix_aas)), list(tm_helix_aas.keys()))
-plt.title("TM helices Amino Acid Frequency")
 plt.xlabel("Amino Acids")
 plt.ylabel("Frequency (%)")
 plt.ylim([0, 20])
@@ -79,9 +79,8 @@ for key in negative_aas.keys():
 negative_aas = sort_dict_by_key(negative_aas)
 
 f3 = plt.figure()
-plt.bar(range(len(negative_aas)), list(negative_aas.values()), align='center')
+plt.bar(range(len(negative_aas)), list(negative_aas.values()), align='center', color='#4466dd')
 plt.xticks(range(len(negative_aas)), list(negative_aas.keys()))
-plt.title("Non-TM helices Amino Acid Frequency")
 plt.xlabel("Amino Acids")
 plt.ylabel("Frequency (%)")
 plt.ylim([0, 20])
@@ -92,9 +91,9 @@ plt.show()
 # Plot comparison of amino acid distribution of helices
 diff_dict = {}
 for key in tm_helix_aas:
-    diff_dict[key] = tm_helix_aas[key] - negative_aas[key]
+    diff_dict[key] = np.log2(tm_helix_aas[key]/negative_aas[key])
 
-dic = {'R': '#ad0020', 'L': '#204cfd', 'N': '#fd3116', 'D': '#fd3116', 'Q': '#fd3116', 'E': '#fd3116', 'H': '#ff4a26', 'P': '#ffa07b', 'Y': '#ffac87', 'W': '#ffb895', 'S': '#fabc9a', 'T': '#f8be9f', 'G': '#e9c9b5', 'A': '#89b0ff', 'M': '#85adff', 'C': '#6d96ff', 'F': '#5d8bff', 'V': '#1639ed', 'I': '#1733dd'}
+#dic = {'R': '#ad0020', 'L': '#204cfd', 'N': '#fd3116', 'D': '#fd3116', 'Q': '#fd3116', 'E': '#fd3116', 'H': '#ff4a26', 'P': '#ffa07b', 'Y': '#ffac87', 'W': '#ffb895', 'S': '#fabc9a', 'T': '#f8be9f', 'G': '#e9c9b5', 'A': '#89b0ff', 'M': '#85adff', 'C': '#6d96ff', 'F': '#5d8bff', 'V': '#1639ed', 'I': '#1733dd'}
 dic = {"D":'#ffa07b',
 "E":'#d5cfcd',
 "N":'#ff885f',
@@ -129,32 +128,36 @@ barlist = plt.bar(range(len(negative_aas)), list(diff_dict.values()), align='cen
 for i in range(0, len(barlist)-1):
     barlist[i].set_color(dic.get(aas[i]))
 plt.xticks(range(len(tm_helix_aas)), list(tm_helix_aas.keys()))
-plt.title("Amino Acid Differences of Transmembrane Helices")
 plt.xlabel("Amino Acids")
 plt.ylabel("Frequency Diff (%)")
-plt.ylim([-7.5, 7.5])
-plt.savefig('figures/comp_aa_distribution.png')
-plt.savefig('figures/comp_aa_distribution.pdf')
+plt.ylim([-2, 2])
+plt.savefig('../figures/comp_aa_distribution.png')
+plt.savefig('../figures/comp_aa_distribution.pdf')
 plt.show()
 
 # Plot Helix Length
 tm_helix_length = list(tm_helices["Helix Length"])
 neg_helix_length = list(negative_samples["Helix Length"])
 f5 = plt.figure()
-plt.hist(tm_helix_length, bins=range(5,50), color='red', density=True)
-plt.hist(neg_helix_length, bins=range(5,50), alpha=0.5, density=True)
+plt.hist(neg_helix_length, bins=range(5,50), color='#4466dd', density=True)
+plt.hist(tm_helix_length, bins=range(5,50), color='#44bb22', alpha=0.6, density=True)
+plt.grid(linestyle=":")
+plt.legend(['non-TM helices', 'TM helices'])
+plt.xlabel('Helix Length')
+plt.ylabel('Frequency (%)')
 plt.savefig('../figures/helix_length.png')
 plt.savefig('../figures/helix_length.pdf')
 plt.show()
 
 f6 = plt.figure()
-plt.bar(range(len(negative_aas)), list(negative_aas.values()), align='center')
-plt.bar(range(len(tm_helix_aas)), list(tm_helix_aas.values()), align='center', color='r', alpha=0.5)
+plt.bar(range(len(negative_aas)), list(negative_aas.values()), align='center', color='#4466dd')
+plt.bar(range(len(tm_helix_aas)), list(tm_helix_aas.values()), align='center', color='#44bb22', alpha=0.6)
 
 plt.xticks(range(len(negative_aas)), list(negative_aas.keys()))
-plt.title("Non-TM helices Amino Acid Frequency")
-plt.xlabel("Amino Acids")
-plt.ylabel("Frequency (%)")
+plt.grid(linestyle=":")
+plt.legend(['non-TM helices', 'TM helices'])
+plt.xlabel('Amino Acid')
+plt.ylabel('Frequency (%)')
 plt.ylim([0, 20])
 plt.savefig('../figures/nontm_aa_distribution.png')
 plt.savefig('../figures/nontm_aa_distribution.pdf')
