@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="4j05" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2013-04-03</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2013-06-06</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>74.60</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>no</PDBKWRES>
+  </RAWRES>
+  <BIOMATRIX>
+    <MATRIX ID="1">
+      <APPLY_TO_CHAIN CHAINID="A" NEW_CHAINID="C"/>
+      <TMATRIX>
+        <ROWX X="-0.50000000" Y="-0.86602497" Z="0.00000000" T="87.25499725"/>
+        <ROWY X="0.86602497" Y="-0.50000000" Z="0.00000000" T="-151.13009644"/>
+        <ROWZ X="0.00000000" Y="0.00000000" Z="1.00000000" T="0.00000000"/>
+      </TMATRIX>
+    </MATRIX>
+    <MATRIX ID="2">
+      <APPLY_TO_CHAIN CHAINID="A" NEW_CHAINID="D"/>
+      <TMATRIX>
+        <ROWX X="-0.50000000" Y="0.86602497" Z="0.00000000" T="174.50999451"/>
+        <ROWY X="-0.86602497" Y="-0.50000000" Z="0.00000000" T="0.00000000"/>
+        <ROWZ X="0.00000000" Y="0.00000000" Z="1.00000000" T="0.00000000"/>
+      </TMATRIX>
+    </MATRIX>
+    <MATRIX ID="3">
+      <APPLY_TO_CHAIN CHAINID="B" NEW_CHAINID="E"/>
+      <TMATRIX>
+        <ROWX X="-0.50000000" Y="-0.86602497" Z="0.00000000" T="174.50999451"/>
+        <ROWY X="0.86602497" Y="-0.50000000" Z="0.00000000" T="0.00000000"/>
+        <ROWZ X="0.00000000" Y="0.00000000" Z="1.00000000" T="0.00000000"/>
+      </TMATRIX>
+    </MATRIX>
+    <MATRIX ID="4">
+      <APPLY_TO_CHAIN CHAINID="B" NEW_CHAINID="F"/>
+      <TMATRIX>
+        <ROWX X="-0.50000000" Y="0.86602497" Z="0.00000000" T="87.25499725"/>
+        <ROWY X="-0.86602497" Y="-0.50000000" Z="0.00000000" T="151.13009644"/>
+        <ROWZ X="0.00000000" Y="0.00000000" Z="1.00000000" T="0.00000000"/>
+      </TMATRIX>
+    </MATRIX>
+    <DELETE CHAINID="B"/>
+    <DELETE CHAINID="C"/>
+    <DELETE CHAINID="D"/>
+    <DELETE CHAINID="E"/>
+    <DELETE CHAINID="F"/>
+  </BIOMATRIX>
+  <MEMBRANE>
+    <NORMAL X="0.00000072" Y="-0.00000028" Z="15.25000000"/>
+    <TMATRIX>
+      <ROWX X="1.00000000" Y="0.00000000" Z="0.00000000" T="-89.38175964"/>
+      <ROWY X="0.00000000" Y="1.00000000" Z="0.00000000" T="24.27487373"/>
+      <ROWZ X="0.00000000" Y="0.00000000" Z="1.00000000" T="-15.76700020"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Inside">
+    <NOTE>According to 23542591/Fig1</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="12" TYPE="alpha">
+    <SEQ>
+      GPMLADLDHF GKNYKHDEEA QRNQKPWMLT WPQIKLVLLA GVGFFLDAYD 
+      LFIINQVAPM LAQVYFPKTG LPAQRQDLMK AAANIGCVVG QVMFGVLGDS 
+      FGRKFVYGKE LILIIVATIF QMSAPSHWDG NRVLTWITIC RVFLGIGIGG 
+      DYPMSATVVS DRANIHRRGT LLCFIFANQG WGSFVGSLVT IVTISGFKHR 
+      LKSGHTHDVD KAWRILIGLS LIPAFGTLYQ RLTLPESRKF ELTRDAASSS 
+      TVAIDKKDHD ATHEVKDAPE SEKSSPKVTP ADAIDDDRHG VIASKKAHWQ 
+      EFVAYFSTWN HFRNLLGSML GWFLVDIAFY GINLNQSVVL AQIGFAGKTG 
+      DVYDKLFQLA TGNIIVTALG FLPGYYFTLF LIDIVGRKKL QFMGFIMSGL 
+      FLAILAGEID HIGKGPLLAC FTFMQFFFNF GANTTTFIVA AELFPTRIRA 
+      SAHGISAAAG KCGAILSSLV FNQLKAKIGT SAVLWIFFST CILGFISTFL 
+      IDETMGVDPD EKDLEERRAR GEIPGGLVPR 
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="-1" seq_end="31" pdb_end="29" type="U"/>
+    <REGION seq_beg="32" pdb_beg="30" seq_end="41" pdb_end="39" type="1"/>
+    <REGION seq_beg="42" pdb_beg="40" seq_end="61" pdb_end="59" type="H"/>
+    <REGION seq_beg="62" pdb_beg="60" seq_end="74" pdb_end="72" type="2"/>
+    <REGION seq_beg="75" pdb_beg="73" seq_end="97" pdb_end="95" type="H"/>
+    <REGION seq_beg="98" pdb_beg="96" seq_end="108" pdb_end="106" type="1"/>
+    <REGION seq_beg="109" pdb_beg="107" seq_end="125" pdb_end="123" type="H"/>
+    <REGION seq_beg="126" pdb_beg="124" seq_end="133" pdb_end="131" type="2"/>
+    <REGION seq_beg="134" pdb_beg="132" seq_end="153" pdb_end="151" type="H"/>
+    <REGION seq_beg="154" pdb_beg="152" seq_end="176" pdb_end="174" type="1"/>
+    <REGION seq_beg="177" pdb_beg="175" seq_end="197" pdb_end="195" type="H"/>
+    <REGION seq_beg="198" pdb_beg="196" seq_end="210" pdb_end="208" type="2"/>
+    <REGION seq_beg="211" pdb_beg="209" seq_end="229" pdb_end="227" type="H"/>
+    <REGION seq_beg="230" pdb_beg="228" seq_end="231" pdb_end="229" type="1"/>
+    <REGION seq_beg="232" pdb_beg="230" seq_end="298" pdb_end="296" type="U"/>
+    <REGION seq_beg="299" pdb_beg="297" seq_end="316" pdb_end="314" type="1"/>
+    <REGION seq_beg="317" pdb_beg="315" seq_end="342" pdb_end="340" type="H"/>
+    <REGION seq_beg="343" pdb_beg="341" seq_end="356" pdb_end="354" type="2"/>
+    <REGION seq_beg="357" pdb_beg="355" seq_end="378" pdb_end="376" type="H"/>
+    <REGION seq_beg="379" pdb_beg="377" seq_end="390" pdb_end="388" type="1"/>
+    <REGION seq_beg="391" pdb_beg="389" seq_end="409" pdb_end="407" type="H"/>
+    <REGION seq_beg="410" pdb_beg="408" seq_end="413" pdb_end="411" type="2"/>
+    <REGION seq_beg="414" pdb_beg="412" seq_end="437" pdb_end="435" type="H"/>
+    <REGION seq_beg="438" pdb_beg="436" seq_end="454" pdb_end="452" type="1"/>
+    <REGION seq_beg="455" pdb_beg="453" seq_end="475" pdb_end="473" type="H"/>
+    <REGION seq_beg="476" pdb_beg="474" seq_end="480" pdb_end="478" type="2"/>
+    <REGION seq_beg="481" pdb_beg="479" seq_end="499" pdb_end="497" type="H"/>
+    <REGION seq_beg="500" pdb_beg="498" seq_end="520" pdb_end="518" type="1"/>
+    <REGION seq_beg="521" pdb_beg="519" seq_end="530" pdb_end="528" type="U"/>
+  </CHAIN>
+</pdbtm>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="1fdm" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2003-08-11</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2005-04-06</DATE>
+    <DESCR>Format has been changed to pdbtm format v2.0</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2005-07-20</DATE>
+    <DESCR>Model has been recalculated by TMDET version 2.0</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2012-06-15</DATE>
+    <DESCR>Interfacial helix detected.</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-10</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>52.40</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>no</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="11.00000000"/>
+    <TMATRIX>
+      <ROWX X="0.56588936" Y="-0.57076281" Z="-0.59497815" T="-0.35467714"/>
+      <ROWY X="-0.26189819" Y="0.55982435" Z="-0.78613365" T="-0.01080167"/>
+      <ROWZ X="0.78177905" Y="0.60068834" Z="0.16731688" T="-7.70550299"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Outside">
+    <NOTE>by similarity to chain: A (see TOPDB: AB00373)</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      AEGDDPAKAA FDSLQASATE YIGYAWAMVV VIVGATIGIK LFKKFTSKAS 
+      
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="7" pdb_end="7" type="1"/>
+    <REGION seq_beg="8" pdb_beg="8" seq_end="16" pdb_end="16" type="F"/>
+    <REGION seq_beg="17" pdb_beg="17" seq_end="29" pdb_end="29" type="1"/>
+    <REGION seq_beg="30" pdb_beg="30" seq_end="44" pdb_end="44" type="H"/>
+    <REGION seq_beg="45" pdb_beg="45" seq_end="50" pdb_end="50" type="2"/>
+  </CHAIN>
+</pdbtm>

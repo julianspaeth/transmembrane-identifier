@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2ziy" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2008-05-08</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2012-06-18</DATE>
+    <DESCR>Interfacial helix detected.</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-13</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>78.48</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+  </RAWRES>
+  <BIOMATRIX>
+    <MATRIX ID="1">
+      <APPLY_TO_CHAIN CHAINID="A" NEW_CHAINID="B"/>
+      <TMATRIX>
+        <ROWX X="-1.00000000" Y="0.00000000" Z="0.00000000" T="84.31900024"/>
+        <ROWY X="0.00000000" Y="1.00000000" Z="0.00000000" T="0.00000000"/>
+        <ROWZ X="0.00000000" Y="0.00000000" Z="-1.00000000" T="71.08249664"/>
+      </TMATRIX>
+    </MATRIX>
+    <DELETE CHAINID="B"/>
+  </BIOMATRIX>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="15.25000000"/>
+    <TMATRIX>
+      <ROWX X="-0.00131295" Y="0.00148338" Z="-0.99999803" T="18.57553482"/>
+      <ROWY X="0.02053319" Y="0.99978811" Z="0.00145611" T="-9.81151676"/>
+      <ROWZ X="0.99978828" Y="-0.02053123" Z="-0.00134313" T="-36.93133545"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Inside">
+    <NOTE>by similarity to chain: A (see TOPDB: AP00574)</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="7" TYPE="alpha">
+    <SEQ>
+      GRDLRDNETW WYNPSIIVHP HWREFDQVPD AVYYSLGIFI GICGIIGCGG 
+      NGIVIYLFTK TKSLQTPANM FIINLAFSDF TFSLVNGFPL MTISCFLKKW 
+      IFGFAACKVY GFIGGIFGFM SIMTMAMISI DRYNVIGRPM AASKKMSHRR 
+      AFIMIIFVWL WSVLWAIGPI FGWGAYTLEG VLCNCSFDYI SRDSTTRSNI 
+      LCMFILGFFG PILIIFFCYF NIVMSVSNHE KEMAAMAKRL NAKELRKAQA 
+      GANAEMRLAK ISIVIVSQFL LSWSPYAVVA LLAQFGPLEW VTPYAAQLPV 
+      MFAKASAIHN PMIYSVSHPK FREAISQTFP WVLTCCQFDD KETEDDKDAE 
+      TEIPAGESSD AAPSADAAQM KE
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="2" seq_end="2" pdb_end="3" type="U"/>
+    <REGION seq_beg="3" pdb_beg="4" seq_end="34" pdb_end="35" type="2"/>
+    <REGION seq_beg="35" pdb_beg="36" seq_end="56" pdb_end="57" type="H"/>
+    <REGION seq_beg="57" pdb_beg="58" seq_end="70" pdb_end="71" type="1"/>
+    <REGION seq_beg="71" pdb_beg="72" seq_end="93" pdb_end="94" type="H"/>
+    <REGION seq_beg="94" pdb_beg="95" seq_end="108" pdb_end="109" type="2"/>
+    <REGION seq_beg="109" pdb_beg="110" seq_end="130" pdb_end="131" type="H"/>
+    <REGION seq_beg="131" pdb_beg="132" seq_end="151" pdb_end="152" type="1"/>
+    <REGION seq_beg="152" pdb_beg="153" seq_end="170" pdb_end="171" type="H"/>
+    <REGION seq_beg="171" pdb_beg="172" seq_end="198" pdb_end="199" type="2"/>
+    <REGION seq_beg="199" pdb_beg="200" seq_end="220" pdb_end="221" type="H"/>
+    <REGION seq_beg="221" pdb_beg="222" seq_end="262" pdb_end="263" type="1"/>
+    <REGION seq_beg="263" pdb_beg="264" seq_end="282" pdb_end="283" type="H"/>
+    <REGION seq_beg="283" pdb_beg="284" seq_end="296" pdb_end="297" type="2"/>
+    <REGION seq_beg="297" pdb_beg="298" seq_end="315" pdb_end="316" type="H"/>
+    <REGION seq_beg="316" pdb_beg="317" seq_end="318" pdb_end="319" type="1"/>
+    <REGION seq_beg="319" pdb_beg="320" seq_end="328" pdb_end="329" type="F"/>
+    <REGION seq_beg="329" pdb_beg="330" seq_end="372" pdb_end="373" type="1"/>
+  </CHAIN>
+</pdbtm>

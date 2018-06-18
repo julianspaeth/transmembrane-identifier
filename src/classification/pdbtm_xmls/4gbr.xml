@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="4gbr" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2012-10-24</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2012-10-24</DATE>
+    <DESCR>Interfacial helix detected.</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-10</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>74.98</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+    <PDBKWORD>Membrane</PDBKWORD>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="16.00000000"/>
+    <TMATRIX>
+      <ROWX X="0.99463421" Y="-0.01186941" Z="0.10277103" T="-12.09036922"/>
+      <ROWY X="-0.00088509" Y="0.99238390" Z="0.12318022" T="-17.89110565"/>
+      <ROWZ X="-0.10345040" Y="-0.12261023" Z="0.98704851" T="-37.37956238"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Inside">
+    <NOTE>by similarity to chain: A (see TOPDB: AP00237)</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="7" TYPE="alpha">
+    <SEQ>
+      DEVWVVGMGI VMSLIVLAIV FGNVLVITAI AKFERLQTVT NYFITSLACA 
+      DLVMGLAVVP FGAAHILTKT WTFGNFWCEF WTSIDVLCVT ASIETLCVIA 
+      VDRYFAITSP FKYQSLLTKN KARVIILMVW IVSGLTSFLP IQMHWYRATH 
+      QEAINCYAEE TCCDFFTNQA YAIASSIVSF YVPLVIMVFV YSRVFQEAKR 
+      QLQKIDKFCL KEHKALKTLG IIMGTFTLCW LPFFIVNIVH VIQDNLIRKE 
+      VYILLNWIGY VNSGFNPLIY CRSPDFRIAF QELLCLRRSS LKAYGNGYSS 
+      NGNTGEQSG
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="29" seq_end="6" pdb_end="34" type="2"/>
+    <REGION seq_beg="7" pdb_beg="35" seq_end="28" pdb_end="56" type="H"/>
+    <REGION seq_beg="29" pdb_beg="57" seq_end="43" pdb_end="71" type="1"/>
+    <REGION seq_beg="44" pdb_beg="72" seq_end="65" pdb_end="93" type="H"/>
+    <REGION seq_beg="66" pdb_beg="94" seq_end="76" pdb_end="104" type="2"/>
+    <REGION seq_beg="77" pdb_beg="105" seq_end="99" pdb_end="127" type="H"/>
+    <REGION seq_beg="100" pdb_beg="128" seq_end="124" pdb_end="152" type="1"/>
+    <REGION seq_beg="125" pdb_beg="153" seq_end="147" pdb_end="175" type="H"/>
+    <REGION seq_beg="148" pdb_beg="176" seq_end="150" pdb_end="178" type="2"/>
+    <REGION seq_beg="151" pdb_beg="179" seq_end="158" pdb_end="186" type="F"/>
+    <REGION seq_beg="159" pdb_beg="187" seq_end="165" pdb_end="193" type="2"/>
+    <REGION seq_beg="166" pdb_beg="194" seq_end="189" pdb_end="217" type="H"/>
+    <REGION seq_beg="190" pdb_beg="218" seq_end="219" pdb_end="247" type="1"/>
+    <REGION seq_beg="220" pdb_beg="248" seq_end="243" pdb_end="271" type="H"/>
+    <REGION seq_beg="244" pdb_beg="272" seq_end="250" pdb_end="278" type="2"/>
+    <REGION seq_beg="251" pdb_beg="279" seq_end="271" pdb_end="299" type="H"/>
+    <REGION seq_beg="272" pdb_beg="300" seq_end="273" pdb_end="301" type="1"/>
+    <REGION seq_beg="274" pdb_beg="302" seq_end="283" pdb_end="311" type="F"/>
+    <REGION seq_beg="284" pdb_beg="312" seq_end="286" pdb_end="314" type="1"/>
+    <REGION seq_beg="287" pdb_beg="315" seq_end="309" pdb_end="337" type="U"/>
+  </CHAIN>
+  <CHAIN CHAINID="B" NUM_TM="0" TYPE="non_tm">
+    <SEQ>
+      GNIFEMLRID EGLRLKIYKD TEGYYTIGIG HLLTKSPSLN AAKSELDKAI 
+      GRNTNGVITK DEAEKLFNQD VDAAVRGILR NAKLKPVYDS LDAVRRAALI 
+      NMVFQMGETG VAGFTNSLRM LQQKRWDEAA VNLAKSRWYN QTPNRAKRVI 
+      TTFRTGTWDA YAA
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1001" seq_end="1" pdb_end="1001" type="U"/>
+    <REGION seq_beg="2" pdb_beg="1002" seq_end="163" pdb_end="1163" type="2"/>
+  </CHAIN>
+</pdbtm>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2vrm" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2008-04-30</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-10</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>41.00</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>no</PDBKWRES>
+  </RAWRES>
+  <BIOMATRIX>
+    <DELETE CHAINID="B"/>
+  </BIOMATRIX>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="14.00000000"/>
+    <TMATRIX>
+      <ROWX X="0.83644462" Y="0.19671339" Z="0.51153123" T="-85.53633118"/>
+      <ROWY X="0.00000000" Y="0.93336356" Z="-0.35893238" T="-128.86199951"/>
+      <ROWZ X="-0.54805142" Y="0.30022705" Z="0.78070694" T="-77.54804230"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Inside">
+    <NOTE>by similarity to chain: A (see TOPDB: AB00450)</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      MSNKCDVVVV GGGISGMAAA KLLHDSGLNV VVLEARDRVG GRTYTLRNQK 
+      VKYVDLGGSY VGPTQNRILR LAKELGLETY KVNEVERLIH HVKGKSYPFR 
+      GPFPPVWNPI TYLDHNNFWR TMDDMGREIP SDAPWKAPLA EEWDNMTMKE 
+      LLDKLCWTES AKQLATLFVN LCVTAETHEV SALWFLWYVK QCGGTTRIIS 
+      TTNGGQERKF VGGSGQVSER IMDLLGDRVK LERPVIYIDQ TRENVLVETL 
+      NHEMYEAKYV ISAIPPTLGM KIHFNPPLPM MRNQMITRVP LGSVIKCIVY 
+      YKEPFWRKKD YCGTMIIDGE EAPVAYTLDD TKPEGNYAAI MGFILAHKAR 
+      KLARLTKEER LKKLCELYAK VLGSLEALEP VHYEEKNWCE EQYSGGCYTT 
+      YFPPGILTQY GRVLRQPVDR IYFAGTETAT HWSGYMEGAV EAGERAAREI 
+      LHAMGKIPED EIWQSEPESV DVPAQPITTT FLERHLPSVP GLLRLIGLTT 
+      IFSATALGFL AHKRGLLVRV 
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="2" pdb_end="2" type="U"/>
+    <REGION seq_beg="3" pdb_beg="3" seq_end="485" pdb_end="485" type="1"/>
+    <REGION seq_beg="486" pdb_beg="486" seq_end="501" pdb_end="501" type="H"/>
+    <REGION seq_beg="502" pdb_beg="502" seq_end="520" pdb_end="520" type="U"/>
+  </CHAIN>
+</pdbtm>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2wjr" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2009-10-14</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-13</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>63.71</TMRES>
+    <TMTYPE>Tm_Beta</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+    <PDBKWORD>Membrane</PDBKWORD>
+    <PDBKWORD>Porin</PDBKWORD>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="13.50000000"/>
+    <TMATRIX>
+      <ROWX X="0.99586987" Y="0.01243161" Z="-0.08993784" T="-5.19447803"/>
+      <ROWY X="-0.00818785" Y="0.99884236" Z="0.04740138" T="24.91677094"/>
+      <ROWZ X="0.09042301" Y="-0.04646918" Z="0.99481887" T="20.26905823"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Inside">
+    <NOTE>According to 19796645/Fig1</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="12" TYPE="beta">
+    <SEQ>
+      ALDVRGGYRS GSHAYETRLK VSEGWQNGWW ASMESNTWNT IHDNKKENAA 
+      LNDVQVEVNY AIKLDDQWTV RPGMLTHFSS NGTRYGPYVK LSWDATKDLN 
+      FGIRYRYDWK AYRQQDLSGD MSRDNVHRWD GYVTYHINSD FTFAWQTTLY 
+      SKQNDYRYAN HKKWATENAF VLQYHMTPDI TPYIEYDYLD RQGVYNGRDN 
+      LSENSYRIGV SFKL
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="2" seq_end="9" pdb_end="10" type="B"/>
+    <REGION seq_beg="10" pdb_beg="11" seq_end="14" pdb_end="15" type="2"/>
+    <REGION seq_beg="15" pdb_beg="16" seq_end="24" pdb_end="25" type="B"/>
+    <REGION seq_beg="25" pdb_beg="26" seq_end="28" pdb_end="29" type="1"/>
+    <REGION seq_beg="29" pdb_beg="30" seq_end="39" pdb_end="40" type="B"/>
+    <REGION seq_beg="40" pdb_beg="41" seq_end="41" pdb_end="42" type="2"/>
+    <REGION seq_beg="42" pdb_beg="43" seq_end="51" pdb_end="52" type="U"/>
+    <REGION seq_beg="52" pdb_beg="53" seq_end="62" pdb_end="63" type="B"/>
+    <REGION seq_beg="63" pdb_beg="64" seq_end="67" pdb_end="68" type="1"/>
+    <REGION seq_beg="68" pdb_beg="69" seq_end="79" pdb_end="80" type="B"/>
+    <REGION seq_beg="80" pdb_beg="81" seq_end="81" pdb_end="82" type="2"/>
+    <REGION seq_beg="82" pdb_beg="83" seq_end="95" pdb_end="96" type="B"/>
+    <REGION seq_beg="96" pdb_beg="97" seq_end="98" pdb_end="99" type="1"/>
+    <REGION seq_beg="99" pdb_beg="100" seq_end="111" pdb_end="112" type="B"/>
+    <REGION seq_beg="112" pdb_beg="113" seq_end="125" pdb_end="126" type="2"/>
+    <REGION seq_beg="126" pdb_beg="127" seq_end="137" pdb_end="138" type="B"/>
+    <REGION seq_beg="138" pdb_beg="139" seq_end="140" pdb_end="141" type="1"/>
+    <REGION seq_beg="141" pdb_beg="142" seq_end="150" pdb_end="151" type="B"/>
+    <REGION seq_beg="151" pdb_beg="152" seq_end="165" pdb_end="166" type="2"/>
+    <REGION seq_beg="166" pdb_beg="167" seq_end="174" pdb_end="175" type="B"/>
+    <REGION seq_beg="175" pdb_beg="176" seq_end="179" pdb_end="180" type="1"/>
+    <REGION seq_beg="180" pdb_beg="181" seq_end="189" pdb_end="190" type="B"/>
+    <REGION seq_beg="190" pdb_beg="191" seq_end="203" pdb_end="204" type="2"/>
+    <REGION seq_beg="204" pdb_beg="205" seq_end="212" pdb_end="213" type="B"/>
+    <REGION seq_beg="213" pdb_beg="214" seq_end="214" pdb_end="215" type="1"/>
+  </CHAIN>
+</pdbtm>

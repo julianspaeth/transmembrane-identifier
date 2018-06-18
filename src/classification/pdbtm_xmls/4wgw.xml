@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="4wgw" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2016-05-25</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2016-05-25</DATE>
+    <DESCR>Interfacial helix detected.</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>59.20</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>no</PDBKWRES>
+  </RAWRES>
+  <BIOMATRIX>
+    <DELETE CHAINID="B"/>
+    <DELETE CHAINID="C"/>
+    <DELETE CHAINID="D"/>
+  </BIOMATRIX>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="14.00000000"/>
+    <TMATRIX>
+      <ROWX X="0.90201163" Y="-0.28443503" Z="0.32476413" T="14.34080124"/>
+      <ROWY X="0.00000000" Y="0.75227076" Z="0.65885407" T="-70.32698822"/>
+      <ROWZ X="-0.43171176" Y="-0.59429401" Z="0.67855698" T="79.29396820"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <CHAIN CHAINID="A" NUM_TM="10" TYPE="alpha">
+    <SEQ>
+      MSVAVGYMDP GNWITSMQGG AQYGYTLLFV ILISSLAAML LQSMTVRLGI 
+      ATGKDLAQMT RHFLSKPVAI IFWIIAELAI IATDIAEVIG SAIALDLIFG 
+      IPLIVGALIT VFDVFLLLFI MRFGFRKIEA IVGTLIFTVL AIFVFEVFIS 
+      SPQLTDILNG FVPHKEIVTN QGILYIALGI IGATIMPHNL YLHSSIVQSR 
+      KYDRHDNEEK AQAIKYATID SNLQLSIAFV VNCLLLTLGA ALFFGTKTND 
+      LGGFYDLYHA LKTEPVLGAT LGGVMSTLFA VALLASGQNS TITGTLAGQI 
+      VMEGFLRLSI PNWLRRLITR SLAVIPVIIC LIIFKGNSEK IEQLLVFSQV 
+      FLSIALPFSL IPLQLATSNK KLMGPFINKT WVNIISWTLI VILSGLNVYL 
+      IIQTFQELAL EVLFQ
+    </SEQ>
+    <REGION seq_beg="5" pdb_beg="45"  seq_end="30" pdb_end="70"  type="2"/>
+    <REGION seq_beg="31" pdb_beg="71"  seq_end="48" pdb_end="88"  type="H"/>
+    <REGION seq_beg="49" pdb_beg="89"  seq_end="55" pdb_end="95"  type="1"/>
+    <REGION seq_beg="56" pdb_beg="96"  seq_end="61" pdb_end="101"  type="F"/>
+    <REGION seq_beg="62" pdb_beg="102"  seq_end="67" pdb_end="107"  type="1"/>
+    <REGION seq_beg="68" pdb_beg="108"  seq_end="95" pdb_end="135"  type="H"/>
+    <REGION seq_beg="96" pdb_beg="136"  seq_end="103" pdb_end="143"  type="2"/>
+    <REGION seq_beg="104" pdb_beg="144"  seq_end="117" pdb_end="157"  type="H"/>
+    <REGION seq_beg="118" pdb_beg="158"  seq_end="118" pdb_end="158"  type="1"/>
+    <REGION seq_beg="119" pdb_beg="159"  seq_end="140" pdb_end="180"  type="H"/>
+    <REGION seq_beg="141" pdb_beg="181"  seq_end="178" pdb_end="218"  type="2"/>
+    <REGION seq_beg="179" pdb_beg="219"  seq_end="194" pdb_end="234"  type="H"/>
+    <REGION seq_beg="195" pdb_beg="235"  seq_end="214" pdb_end="254"  type="1"/>
+    <REGION seq_beg="215" pdb_beg="255"  seq_end="232" pdb_end="272"  type="H"/>
+    <REGION seq_beg="233" pdb_beg="273"  seq_end="253" pdb_end="293"  type="2"/>
+    <REGION seq_beg="254" pdb_beg="294"  seq_end="262" pdb_end="302"  type="F"/>
+    <REGION seq_beg="263" pdb_beg="303"  seq_end="280" pdb_end="320"  type="2"/>
+    <REGION seq_beg="281" pdb_beg="321"  seq_end="302" pdb_end="342"  type="H"/>
+    <REGION seq_beg="303" pdb_beg="343"  seq_end="312" pdb_end="352"  type="1"/>
+    <REGION seq_beg="313" pdb_beg="353"  seq_end="331" pdb_end="371"  type="H"/>
+    <REGION seq_beg="332" pdb_beg="372"  seq_end="344" pdb_end="384"  type="2"/>
+    <REGION seq_beg="345" pdb_beg="385"  seq_end="368" pdb_end="408"  type="H"/>
+    <REGION seq_beg="369" pdb_beg="409"  seq_end="373" pdb_end="413"  type="1"/>
+    <REGION seq_beg="374" pdb_beg="414"  seq_end="396" pdb_end="436"  type="H"/>
+    <REGION seq_beg="397" pdb_beg="437"  seq_end="399" pdb_end="439"  type="2"/>
+  </CHAIN>
+</pdbtm>

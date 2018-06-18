@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="1ojc" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2003-09-08</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2004-09-17</DATE>
+    <DESCR>Transmembrane region is fragmented.</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2005-04-06</DATE>
+    <DESCR>Format has been changed to pdbtm format v2.0</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2005-07-21</DATE>
+    <DESCR>Model has been recalculated by TMDET version 2.0</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2012-06-15</DATE>
+    <DESCR>Interfacial helix detected.</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-10</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>40.90</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Tm_Alpha</SPRES>
+    <PDBKWRES>no</PDBKWRES>
+  </RAWRES>
+  <BIOMATRIX>
+    <DELETE CHAINID="B"/>
+  </BIOMATRIX>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="12.00000000"/>
+    <TMATRIX>
+      <ROWX X="0.83644462" Y="0.19671339" Z="0.51153123" T="-85.84803772"/>
+      <ROWY X="0.00000000" Y="0.93336356" Z="-0.35893238" T="-128.80046082"/>
+      <ROWZ X="-0.54805142" Y="0.30022705" Z="0.78070694" T="-78.88615417"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Inside">
+    <NOTE>see TOPDB: AB00450</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      MSNKCDVVVV GGGISGMAAA KLLHDSGLNV VVLEARDRVG GRTYTLRNQK 
+      VKYVDLGGSY VGPTQNRILR LAKELGLETY KVNEVERLIH HVKGKSYPFR 
+      GPFPPVWNPI TYLDHNNFWR TMDDMGREIP SDAPWKAPLA EEWDNMTMKE 
+      LLDKLCWTES AKQLATLFVN LCVTAETHEV SALWFLWYVK QCGGTTRIIS 
+      TTNGGQERKF VGGSGQVSER IMDLLGDRVK LERPVIYIDQ TRENVLVETL 
+      NHEMYEAKYV ISAIPPTLGM KIHFNPPLPM MRNQMITRVP LGSVIKCIVY 
+      YKEPFWRKKD YCGTMIIDGE EAPVAYTLDD TKPEGNYAAI MGFILAHKAR 
+      KLARLTKEER LKKLCELYAK VLGSLEALEP VHYEEKNWCE EQYSGGCYTT 
+      YFPPGILTQY GRVLRQPVDR IYFAGTETAT HWSGYMEGAV EAGERAAREI 
+      LHAMGKIPED EIWQSEPESV DVPAQPITTT FLERHLPSVP GLLRLIGLTT 
+      IFSATALGFL AHKRGLLVRV 
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="2" pdb_end="2" type="U"/>
+    <REGION seq_beg="3" pdb_beg="3" seq_end="108" pdb_end="108" type="1"/>
+    <REGION seq_beg="109" pdb_beg="109" seq_end="126" pdb_end="126" type="F"/>
+    <REGION seq_beg="127" pdb_beg="127" seq_end="490" pdb_end="490" type="1"/>
+    <REGION seq_beg="491" pdb_beg="491" seq_end="501" pdb_end="501" type="H"/>
+    <REGION seq_beg="502" pdb_beg="502" seq_end="520" pdb_end="520" type="U"/>
+  </CHAIN>
+</pdbtm>

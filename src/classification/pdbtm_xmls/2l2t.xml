@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2l2t" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2011-09-14</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-10</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>80.20</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="17.50000000"/>
+    <TMATRIX>
+      <ROWX X="0.29556155" Y="-0.42189232" Z="0.85711735" T="-3.21691227"/>
+      <ROWY X="0.06440476" Y="0.90395939" Z="0.42274019" T="1.33698344"/>
+      <ROWZ X="-0.95315021" Y="-0.06974331" Z="0.29434755" T="-29.50067520"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Outside">
+    <NOTE>by similarity to chain: A (see TOPDB: AB00971)</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      STLPQHARTP LIAAGVIGGL FILVIVGLTF AVYVRRKSIK KKRA
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="42" seq_end="9" pdb_end="50" type="1"/>
+    <REGION seq_beg="10" pdb_beg="51" seq_end="33" pdb_end="74" type="H"/>
+    <REGION seq_beg="34" pdb_beg="75" seq_end="44" pdb_end="85" type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="B" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      STLPQHARTP LIAAGVIGGL FILVIVGLTF AVYVRRKSIK KKRA
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="43" seq_end="10" pdb_end="52" type="1"/>
+    <REGION seq_beg="11" pdb_beg="53" seq_end="36" pdb_end="78" type="H"/>
+    <REGION seq_beg="37" pdb_beg="79" seq_end="44" pdb_end="86" type="2"/>
+  </CHAIN>
+</pdbtm>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2mom" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2014-11-13</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2014-11-13</DATE>
+    <DESCR>Fragment.</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>82.32</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="15.50000000"/>
+    <TMATRIX>
+      <ROWX X="0.97113049" Y="-0.14187537" Z="0.19177316" T="3.60545158"/>
+      <ROWY X="0.00000000" Y="0.80391556" Z="0.59474343" T="11.81554413"/>
+      <ROWZ X="-0.23854887" Y="-0.57757348" Z="0.78070694" T="19.06257820"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <CHAIN CHAINID="A" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      SADDDNFLVP IAVGAALAGV LILVLLAYFI GLKHHHAGYE QF
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="369"  seq_end="13" pdb_end="381"  type="2"/>
+    <REGION seq_beg="14" pdb_beg="382"  seq_end="37" pdb_end="405"  type="H"/>
+    <REGION seq_beg="38" pdb_beg="406"  seq_end="42" pdb_end="410"  type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="B" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      SADDDNFLVP IAVGAALAGV LILVLLAYFI GLKHHHAGYE QF
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="369"  seq_end="12" pdb_end="380"  type="2"/>
+    <REGION seq_beg="13" pdb_beg="381"  seq_end="33" pdb_end="401"  type="H"/>
+    <REGION seq_beg="34" pdb_beg="402"  seq_end="42" pdb_end="410"  type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="C" NUM_TM="1" TYPE="alpha">
+    <SEQ>
+      SADDDNFLVP IAVGAALAGV LILVLLAYFI GLKHHHAGYE QF
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="369"  seq_end="14" pdb_end="382"  type="2"/>
+    <REGION seq_beg="15" pdb_beg="383"  seq_end="32" pdb_end="400"  type="H"/>
+    <REGION seq_beg="33" pdb_beg="401"  seq_end="42" pdb_end="410"  type="1"/>
+  </CHAIN>
+</pdbtm>

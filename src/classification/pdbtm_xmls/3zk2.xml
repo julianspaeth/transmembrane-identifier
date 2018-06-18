@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="3zk2" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2013-06-17</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2013-06-17</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>92.25</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+    <PDBKWORD>Membrane</PDBKWORD>
+  </RAWRES>
+  <BIOMATRIX>
+    <DELETE CHAINID="L"/>
+    <DELETE CHAINID="M"/>
+    <DELETE CHAINID="N"/>
+    <DELETE CHAINID="O"/>
+    <DELETE CHAINID="P"/>
+    <DELETE CHAINID="Q"/>
+    <DELETE CHAINID="R"/>
+    <DELETE CHAINID="S"/>
+    <DELETE CHAINID="T"/>
+    <DELETE CHAINID="U"/>
+    <DELETE CHAINID="V"/>
+  </BIOMATRIX>
+  <MEMBRANE>
+    <NORMAL X="0.00000002" Y="0.00000004" Z="18.00000000"/>
+    <TMATRIX>
+      <ROWX X="0.39780241" Y="0.16698484" Z="-0.90214700" T="-13.97925186"/>
+      <ROWY X="0.00000000" Y="0.98329753" Z="0.18200557" T="-0.20167422"/>
+      <ROWZ X="0.91747105" Y="-0.07240225" Z="0.39115810" T="-36.98634338"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Inside">
+    <NOTE>by similarity to chain: A (see TOPDB: AP00527)</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MDLLTAKTIV LGCSAVGAGL AMIAGLGPGI GEGYAAGKAV ESVARQPEAR 
+      GSIISTMILG QAVAESTGIY SLVIALILLY ANPFLSKLG
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="10" pdb_end="10" type="2"/>
+    <REGION seq_beg="11" pdb_beg="11" seq_end="33" pdb_end="33" type="H"/>
+    <REGION seq_beg="34" pdb_beg="34" seq_end="61" pdb_end="61" type="1"/>
+    <REGION seq_beg="62" pdb_beg="62" seq_end="85" pdb_end="85" type="H"/>
+    <REGION seq_beg="86" pdb_beg="86" seq_end="89" pdb_end="89" type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="B" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MDLLTAKTIV LGCSAVGAGL AMIAGLGPGI GEGYAAGKAV ESVARQPEAR 
+      GSIISTMILG QAVAESTGIY SLVIALILLY ANPFLSKLG
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="10" pdb_end="10" type="2"/>
+    <REGION seq_beg="11" pdb_beg="11" seq_end="33" pdb_end="33" type="H"/>
+    <REGION seq_beg="34" pdb_beg="34" seq_end="61" pdb_end="61" type="1"/>
+    <REGION seq_beg="62" pdb_beg="62" seq_end="84" pdb_end="84" type="H"/>
+    <REGION seq_beg="85" pdb_beg="85" seq_end="89" pdb_end="89" type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="C" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MDLLTAKTIV LGCSAVGAGL AMIAGLGPGI GEGYAAGKAV ESVARQPEAR 
+      GSIISTMILG QAVAESTGIY SLVIALILLY ANPFLSKLG
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="10" pdb_end="10" type="2"/>
+    <REGION seq_beg="11" pdb_beg="11" seq_end="33" pdb_end="33" type="H"/>
+    <REGION seq_beg="34" pdb_beg="34" seq_end="61" pdb_end="61" type="1"/>
+    <REGION seq_beg="62" pdb_beg="62" seq_end="85" pdb_end="85" type="H"/>
+    <REGION seq_beg="86" pdb_beg="86" seq_end="89" pdb_end="89" type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="D" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MDLLTAKTIV LGCSAVGAGL AMIAGLGPGI GEGYAAGKAV ESVARQPEAR 
+      GSIISTMILG QAVAESTGIY SLVIALILLY ANPFLSKLG
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="10" pdb_end="10" type="2"/>
+    <REGION seq_beg="11" pdb_beg="11" seq_end="33" pdb_end="33" type="H"/>
+    <REGION seq_beg="34" pdb_beg="34" seq_end="61" pdb_end="61" type="1"/>
+    <REGION seq_beg="62" pdb_beg="62" seq_end="84" pdb_end="84" type="H"/>
+    <REGION seq_beg="85" pdb_beg="85" seq_end="89" pdb_end="89" type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="E" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MDLLTAKTIV LGCSAVGAGL AMIAGLGPGI GEGYAAGKAV ESVARQPEAR 
+      GSIISTMILG QAVAESTGIY SLVIALILLY ANPFLSKLG
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="10" pdb_end="10" type="2"/>
+    <REGION seq_beg="11" pdb_beg="11" seq_end="33" pdb_end="33" type="H"/>
+    <REGION seq_beg="34" pdb_beg="34" seq_end="61" pdb_end="61" type="1"/>
+    <REGION seq_beg="62" pdb_beg="62" seq_end="84" pdb_end="84" type="H"/>
+    <REGION seq_beg="85" pdb_beg="85" seq_end="89" pdb_end="89" type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="F" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MDLLTAKTIV LGCSAVGAGL AMIAGLGPGI GEGYAAGKAV ESVARQPEAR 
+      GSIISTMILG QAVAESTGIY SLVIALILLY ANPFLSKLG
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="10" pdb_end="10" type="2"/>
+    <REGION seq_beg="11" pdb_beg="11" seq_end="32" pdb_end="32" type="H"/>
+    <REGION seq_beg="33" pdb_beg="33" seq_end="61" pdb_end="61" type="1"/>
+    <REGION seq_beg="62" pdb_beg="62" seq_end="84" pdb_end="84" type="H"/>
+    <REGION seq_beg="85" pdb_beg="85" seq_end="89" pdb_end="89" type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="G" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MDLLTAKTIV LGCSAVGAGL AMIAGLGPGI GEGYAAGKAV ESVARQPEAR 
+      GSIISTMILG QAVAESTGIY SLVIALILLY ANPFLSKLG
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="10" pdb_end="10" type="2"/>
+    <REGION seq_beg="11" pdb_beg="11" seq_end="33" pdb_end="33" type="H"/>
+    <REGION seq_beg="34" pdb_beg="34" seq_end="61" pdb_end="61" type="1"/>
+    <REGION seq_beg="62" pdb_beg="62" seq_end="85" pdb_end="85" type="H"/>
+    <REGION seq_beg="86" pdb_beg="86" seq_end="89" pdb_end="89" type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="H" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MDLLTAKTIV LGCSAVGAGL AMIAGLGPGI GEGYAAGKAV ESVARQPEAR 
+      GSIISTMILG QAVAESTGIY SLVIALILLY ANPFLSKLG
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="10" pdb_end="10" type="2"/>
+    <REGION seq_beg="11" pdb_beg="11" seq_end="33" pdb_end="33" type="H"/>
+    <REGION seq_beg="34" pdb_beg="34" seq_end="61" pdb_end="61" type="1"/>
+    <REGION seq_beg="62" pdb_beg="62" seq_end="85" pdb_end="85" type="H"/>
+    <REGION seq_beg="86" pdb_beg="86" seq_end="89" pdb_end="89" type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="I" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MDLLTAKTIV LGCSAVGAGL AMIAGLGPGI GEGYAAGKAV ESVARQPEAR 
+      GSIISTMILG QAVAESTGIY SLVIALILLY ANPFLSKLG
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="10" pdb_end="10" type="2"/>
+    <REGION seq_beg="11" pdb_beg="11" seq_end="32" pdb_end="32" type="H"/>
+    <REGION seq_beg="33" pdb_beg="33" seq_end="61" pdb_end="61" type="1"/>
+    <REGION seq_beg="62" pdb_beg="62" seq_end="85" pdb_end="85" type="H"/>
+    <REGION seq_beg="86" pdb_beg="86" seq_end="89" pdb_end="89" type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="J" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MDLLTAKTIV LGCSAVGAGL AMIAGLGPGI GEGYAAGKAV ESVARQPEAR 
+      GSIISTMILG QAVAESTGIY SLVIALILLY ANPFLSKLG
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="10" pdb_end="10" type="2"/>
+    <REGION seq_beg="11" pdb_beg="11" seq_end="33" pdb_end="33" type="H"/>
+    <REGION seq_beg="34" pdb_beg="34" seq_end="61" pdb_end="61" type="1"/>
+    <REGION seq_beg="62" pdb_beg="62" seq_end="85" pdb_end="85" type="H"/>
+    <REGION seq_beg="86" pdb_beg="86" seq_end="89" pdb_end="89" type="2"/>
+  </CHAIN>
+  <CHAIN CHAINID="K" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MDLLTAKTIV LGCSAVGAGL AMIAGLGPGI GEGYAAGKAV ESVARQPEAR 
+      GSIISTMILG QAVAESTGIY SLVIALILLY ANPFLSKLG
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="10" pdb_end="10" type="2"/>
+    <REGION seq_beg="11" pdb_beg="11" seq_end="32" pdb_end="32" type="H"/>
+    <REGION seq_beg="33" pdb_beg="33" seq_end="61" pdb_end="61" type="1"/>
+    <REGION seq_beg="62" pdb_beg="62" seq_end="84" pdb_end="84" type="H"/>
+    <REGION seq_beg="85" pdb_beg="85" seq_end="89" pdb_end="89" type="2"/>
+  </CHAIN>
+</pdbtm>

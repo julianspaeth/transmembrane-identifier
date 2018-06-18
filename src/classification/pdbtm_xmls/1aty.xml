@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="1aty" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2003-08-10</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2005-04-08</DATE>
+    <DESCR>Format has been changed to pdbtm format v2.0</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2005-04-08</DATE>
+    <DESCR>
+      Sequence corrected, modell recalculated with the new 
+      sequence.
+  </DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2005-07-19</DATE>
+    <DESCR>Model has been recalculated by TMDET version 2.0</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2005-07-19</DATE>
+    <DESCR>Type of region 10-26 has been changed to H</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2012-03-22</DATE>
+    <DESCR>Fragment.</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-10</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>59.58</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+  </RAWRES>
+  <MEMBRANE>
+    <NORMAL X="0.00000000" Y="0.00000000" Z="13.00000000"/>
+    <TMATRIX>
+      <ROWX X="0.96928936" Y="0.24000581" Z="0.05362160" T="-1.83916020"/>
+      <ROWY X="0.02726890" Y="0.11180514" Z="-0.99335593" T="2.36231375"/>
+      <ROWZ X="-0.24440634" Y="0.96431154" Z="0.10182682" T="0.08183503"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Outside">
+    <NOTE>by similarity to chain: A (see TOPDB: AP00304)</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MENLNMDLLY MAAAVMMGLA AIGAAIGIGI LGGKFLEGAA RQPDLIPLLR 
+      TQFFIVMGLV DAIPMICVGL GLYVMFAVA
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="8" pdb_end="8" type="U"/>
+    <REGION seq_beg="9" pdb_beg="9" seq_end="9" pdb_end="9" type="1"/>
+    <REGION seq_beg="10" pdb_beg="10" seq_end="26" pdb_end="26" type="H"/>
+    <REGION seq_beg="27" pdb_beg="27" seq_end="51" pdb_end="51" type="U"/>
+    <REGION seq_beg="52" pdb_beg="52" seq_end="57" pdb_end="57" type="2"/>
+    <REGION seq_beg="58" pdb_beg="58" seq_end="77" pdb_end="77" type="H"/>
+    <REGION seq_beg="78" pdb_beg="78" seq_end="79" pdb_end="79" type="1"/>
+  </CHAIN>
+</pdbtm>

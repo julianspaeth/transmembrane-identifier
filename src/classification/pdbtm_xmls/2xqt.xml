@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="2xqt" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2010-11-03</CREATE_DATE>
+  <MODIFICATION>
+    <DATE>2011-11-18</DATE>
+    <DESCR>PDB ATOM records were modified</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2012-03-08</DATE>
+    <DESCR>PDB entry has been changed</DESCR>
+  </MODIFICATION>
+  <MODIFICATION>
+    <DATE>2013-05-13</DATE>
+    <DESCR>Sidedefinition added</DESCR>
+  </MODIFICATION>
+  <RAWRES>
+    <TMRES>89.79</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>yes</PDBKWRES>
+  </RAWRES>
+  <BIOMATRIX>
+    <MATRIX ID="1">
+      <APPLY_TO_CHAIN CHAINID="A" NEW_CHAINID="F"/>
+      <APPLY_TO_CHAIN CHAINID="B" NEW_CHAINID="G"/>
+      <APPLY_TO_CHAIN CHAINID="C" NEW_CHAINID="H"/>
+      <APPLY_TO_CHAIN CHAINID="D" NEW_CHAINID="I"/>
+      <APPLY_TO_CHAIN CHAINID="E" NEW_CHAINID="J"/>
+      <TMATRIX>
+        <ROWX X="-0.50000000" Y="-0.86602497" Z="0.00000000" T="45.73500061"/>
+        <ROWY X="0.86602497" Y="-0.50000000" Z="0.00000000" T="-79.21533966"/>
+        <ROWZ X="0.00000000" Y="0.00000000" Z="1.00000000" T="0.00000000"/>
+      </TMATRIX>
+    </MATRIX>
+    <MATRIX ID="2">
+      <APPLY_TO_CHAIN CHAINID="A" NEW_CHAINID="K"/>
+      <APPLY_TO_CHAIN CHAINID="B" NEW_CHAINID="L"/>
+      <APPLY_TO_CHAIN CHAINID="C" NEW_CHAINID="M"/>
+      <APPLY_TO_CHAIN CHAINID="D" NEW_CHAINID="N"/>
+      <APPLY_TO_CHAIN CHAINID="E" NEW_CHAINID="P"/>
+      <TMATRIX>
+        <ROWX X="-0.50000000" Y="0.86602497" Z="0.00000000" T="91.47000122"/>
+        <ROWY X="-0.86602497" Y="-0.50000000" Z="0.00000000" T="0.00000000"/>
+        <ROWZ X="0.00000000" Y="0.00000000" Z="1.00000000" T="0.00000000"/>
+      </TMATRIX>
+    </MATRIX>
+  </BIOMATRIX>
+  <MEMBRANE>
+    <NORMAL X="0.00634675" Y="-0.05477249" Z="11.99987411"/>
+    <TMATRIX>
+      <ROWX X="1.00000000" Y="0.00000000" Z="0.00000000" T="-45.73385620"/>
+      <ROWY X="0.00000000" Y="1.00000000" Z="0.00000000" T="26.39558601"/>
+      <ROWZ X="0.00000000" Y="0.00000000" Z="1.00000000" T="-28.40499496"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <SIDEDEFINITION Side1="Inside">
+    <NOTE>by similarity to chain: A (see PDBTM: 2xqu)</NOTE>
+  </SIDEDEFINITION>
+  <CHAIN CHAINID="A" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MESNLTTAAS VIAAALAVGI GSIGPGLGQG QAAGQAVEGI ARQPEAEGKI 
+      RGTLLLSLAF MEALTIYGLV VALVLLFANP FV
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="14" pdb_end="14" type="1"/>
+    <REGION seq_beg="15" pdb_beg="15" seq_end="28" pdb_end="28" type="H"/>
+    <REGION seq_beg="29" pdb_beg="29" seq_end="59" pdb_end="59" type="2"/>
+    <REGION seq_beg="60" pdb_beg="60" seq_end="74" pdb_end="74" type="H"/>
+    <REGION seq_beg="75" pdb_beg="75" seq_end="82" pdb_end="82" type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="B" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MESNLTTAAS VIAAALAVGI GSIGPGLGQG QAAGQAVEGI ARQPEAEGKI 
+      RGTLLLSLAF MEALTIYGLV VALVLLFANP FV
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="13" pdb_end="13" type="1"/>
+    <REGION seq_beg="14" pdb_beg="14" seq_end="28" pdb_end="28" type="H"/>
+    <REGION seq_beg="29" pdb_beg="29" seq_end="59" pdb_end="59" type="2"/>
+    <REGION seq_beg="60" pdb_beg="60" seq_end="74" pdb_end="74" type="H"/>
+    <REGION seq_beg="75" pdb_beg="75" seq_end="82" pdb_end="82" type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="C" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MESNLTTAAS VIAAALAVGI GSIGPGLGQG QAAGQAVEGI ARQPEAEGKI 
+      RGTLLLSLAF MEALTIYGLV VALVLLFANP FV
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="14" pdb_end="14" type="1"/>
+    <REGION seq_beg="15" pdb_beg="15" seq_end="28" pdb_end="28" type="H"/>
+    <REGION seq_beg="29" pdb_beg="29" seq_end="59" pdb_end="59" type="2"/>
+    <REGION seq_beg="60" pdb_beg="60" seq_end="74" pdb_end="74" type="H"/>
+    <REGION seq_beg="75" pdb_beg="75" seq_end="82" pdb_end="82" type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="D" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MESNLTTAAS VIAAALAVGI GSIGPGLGQG QAAGQAVEGI ARQPEAEGKI 
+      RGTLLLSLAF MEALTIYGLV VALVLLFANP FV
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="14" pdb_end="14" type="1"/>
+    <REGION seq_beg="15" pdb_beg="15" seq_end="28" pdb_end="28" type="H"/>
+    <REGION seq_beg="29" pdb_beg="29" seq_end="59" pdb_end="59" type="2"/>
+    <REGION seq_beg="60" pdb_beg="60" seq_end="74" pdb_end="74" type="H"/>
+    <REGION seq_beg="75" pdb_beg="75" seq_end="82" pdb_end="82" type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="E" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MESNLTTAAS VIAAALAVGI GSIGPGLGQG QAAGQAVEGI ARQPEAEGKI 
+      RGTLLLSLAF MEALTIYGLV VALVLLFANP FV
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="13" pdb_end="13" type="1"/>
+    <REGION seq_beg="14" pdb_beg="14" seq_end="28" pdb_end="28" type="H"/>
+    <REGION seq_beg="29" pdb_beg="29" seq_end="59" pdb_end="59" type="2"/>
+    <REGION seq_beg="60" pdb_beg="60" seq_end="74" pdb_end="74" type="H"/>
+    <REGION seq_beg="75" pdb_beg="75" seq_end="82" pdb_end="82" type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="F" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MESNLTTAAS VIAAALAVGI GSIGPGLGQG QAAGQAVEGI ARQPEAEGKI 
+      RGTLLLSLAF MEALTIYGLV VALVLLFANP FV
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="13" pdb_end="13" type="1"/>
+    <REGION seq_beg="14" pdb_beg="14" seq_end="28" pdb_end="28" type="H"/>
+    <REGION seq_beg="29" pdb_beg="29" seq_end="59" pdb_end="59" type="2"/>
+    <REGION seq_beg="60" pdb_beg="60" seq_end="74" pdb_end="74" type="H"/>
+    <REGION seq_beg="75" pdb_beg="75" seq_end="82" pdb_end="82" type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="G" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MESNLTTAAS VIAAALAVGI GSIGPGLGQG QAAGQAVEGI ARQPEAEGKI 
+      RGTLLLSLAF MEALTIYGLV VALVLLFANP FV
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="13" pdb_end="13" type="1"/>
+    <REGION seq_beg="14" pdb_beg="14" seq_end="28" pdb_end="28" type="H"/>
+    <REGION seq_beg="29" pdb_beg="29" seq_end="59" pdb_end="59" type="2"/>
+    <REGION seq_beg="60" pdb_beg="60" seq_end="74" pdb_end="74" type="H"/>
+    <REGION seq_beg="75" pdb_beg="75" seq_end="82" pdb_end="82" type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="H" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MESNLTTAAS VIAAALAVGI GSIGPGLGQG QAAGQAVEGI ARQPEAEGKI 
+      RGTLLLSLAF MEALTIYGLV VALVLLFANP FV
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="13" pdb_end="13" type="1"/>
+    <REGION seq_beg="14" pdb_beg="14" seq_end="28" pdb_end="28" type="H"/>
+    <REGION seq_beg="29" pdb_beg="29" seq_end="59" pdb_end="59" type="2"/>
+    <REGION seq_beg="60" pdb_beg="60" seq_end="74" pdb_end="74" type="H"/>
+    <REGION seq_beg="75" pdb_beg="75" seq_end="82" pdb_end="82" type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="I" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MESNLTTAAS VIAAALAVGI GSIGPGLGQG QAAGQAVEGI ARQPEAEGKI 
+      RGTLLLSLAF MEALTIYGLV VALVLLFANP FV
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="13" pdb_end="13" type="1"/>
+    <REGION seq_beg="14" pdb_beg="14" seq_end="28" pdb_end="28" type="H"/>
+    <REGION seq_beg="29" pdb_beg="29" seq_end="59" pdb_end="59" type="2"/>
+    <REGION seq_beg="60" pdb_beg="60" seq_end="74" pdb_end="74" type="H"/>
+    <REGION seq_beg="75" pdb_beg="75" seq_end="82" pdb_end="82" type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="J" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MESNLTTAAS VIAAALAVGI GSIGPGLGQG QAAGQAVEGI ARQPEAEGKI 
+      RGTLLLSLAF MEALTIYGLV VALVLLFANP FV
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="13" pdb_end="13" type="1"/>
+    <REGION seq_beg="14" pdb_beg="14" seq_end="28" pdb_end="28" type="H"/>
+    <REGION seq_beg="29" pdb_beg="29" seq_end="59" pdb_end="59" type="2"/>
+    <REGION seq_beg="60" pdb_beg="60" seq_end="74" pdb_end="74" type="H"/>
+    <REGION seq_beg="75" pdb_beg="75" seq_end="82" pdb_end="82" type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="K" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MESNLTTAAS VIAAALAVGI GSIGPGLGQG QAAGQAVEGI ARQPEAEGKI 
+      RGTLLLSLAF MEALTIYGLV VALVLLFANP FV
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="13" pdb_end="13" type="1"/>
+    <REGION seq_beg="14" pdb_beg="14" seq_end="28" pdb_end="28" type="H"/>
+    <REGION seq_beg="29" pdb_beg="29" seq_end="59" pdb_end="59" type="2"/>
+    <REGION seq_beg="60" pdb_beg="60" seq_end="74" pdb_end="74" type="H"/>
+    <REGION seq_beg="75" pdb_beg="75" seq_end="82" pdb_end="82" type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="L" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MESNLTTAAS VIAAALAVGI GSIGPGLGQG QAAGQAVEGI ARQPEAEGKI 
+      RGTLLLSLAF MEALTIYGLV VALVLLFANP FV
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="13" pdb_end="13" type="1"/>
+    <REGION seq_beg="14" pdb_beg="14" seq_end="28" pdb_end="28" type="H"/>
+    <REGION seq_beg="29" pdb_beg="29" seq_end="59" pdb_end="59" type="2"/>
+    <REGION seq_beg="60" pdb_beg="60" seq_end="74" pdb_end="74" type="H"/>
+    <REGION seq_beg="75" pdb_beg="75" seq_end="82" pdb_end="82" type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="M" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MESNLTTAAS VIAAALAVGI GSIGPGLGQG QAAGQAVEGI ARQPEAEGKI 
+      RGTLLLSLAF MEALTIYGLV VALVLLFANP FV
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="13" pdb_end="13" type="1"/>
+    <REGION seq_beg="14" pdb_beg="14" seq_end="28" pdb_end="28" type="H"/>
+    <REGION seq_beg="29" pdb_beg="29" seq_end="59" pdb_end="59" type="2"/>
+    <REGION seq_beg="60" pdb_beg="60" seq_end="74" pdb_end="74" type="H"/>
+    <REGION seq_beg="75" pdb_beg="75" seq_end="82" pdb_end="82" type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="N" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MESNLTTAAS VIAAALAVGI GSIGPGLGQG QAAGQAVEGI ARQPEAEGKI 
+      RGTLLLSLAF MEALTIYGLV VALVLLFANP FV
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="13" pdb_end="13" type="1"/>
+    <REGION seq_beg="14" pdb_beg="14" seq_end="28" pdb_end="28" type="H"/>
+    <REGION seq_beg="29" pdb_beg="29" seq_end="59" pdb_end="59" type="2"/>
+    <REGION seq_beg="60" pdb_beg="60" seq_end="74" pdb_end="74" type="H"/>
+    <REGION seq_beg="75" pdb_beg="75" seq_end="82" pdb_end="82" type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="P" NUM_TM="2" TYPE="alpha">
+    <SEQ>
+      MESNLTTAAS VIAAALAVGI GSIGPGLGQG QAAGQAVEGI ARQPEAEGKI 
+      RGTLLLSLAF MEALTIYGLV VALVLLFANP FV
+    </SEQ>
+    <REGION seq_beg="1" pdb_beg="1" seq_end="13" pdb_end="13" type="1"/>
+    <REGION seq_beg="14" pdb_beg="14" seq_end="28" pdb_end="28" type="H"/>
+    <REGION seq_beg="29" pdb_beg="29" seq_end="59" pdb_end="59" type="2"/>
+    <REGION seq_beg="60" pdb_beg="60" seq_end="74" pdb_end="74" type="H"/>
+    <REGION seq_beg="75" pdb_beg="75" seq_end="82" pdb_end="82" type="1"/>
+  </CHAIN>
+</pdbtm>

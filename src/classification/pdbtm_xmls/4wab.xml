@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<pdbtm xmlns="http://pdbtm.enzim.hu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pdbtm_data.enzim.hu/pdbtm.xsd pdbtm.xsd" ID="4wab" TMP="yes">
+  <COPYRIGHT>
+     All  information, data  and  files are copyright.  PDBTM database is
+     produced in the  Institute of  Enzymology,  Budapest, Hungary. There
+     are no restrictions on  its  use by  non-profit institutions as long
+     as its content  is  in  no  way  modified  and this statement is not
+     removed from entries. Usage by and for  commercial entities requires
+     a license agreement (send an email to pdbtm at enzim dot hu).
+  </COPYRIGHT>
+  <CREATE_DATE>2015-01-19</CREATE_DATE>
+  <RAWRES>
+    <TMRES>70.08</TMRES>
+    <TMTYPE>Tm_Alpha</TMTYPE>
+    <SPRES>Unknown</SPRES>
+    <PDBKWRES>no</PDBKWRES>
+  </RAWRES>
+  <BIOMATRIX>
+    <MATRIX ID="1">
+      <APPLY_TO_CHAIN CHAINID="A" NEW_CHAINID="B"/>
+      <TMATRIX>
+        <ROWX X="-0.50000000" Y="-0.86602497" Z="0.00000000" T="43.36000061"/>
+        <ROWY X="0.86602497" Y="-0.50000000" Z="0.00000000" T="75.10172272"/>
+        <ROWZ X="0.00000000" Y="0.00000000" Z="1.00000000" T="0.00000000"/>
+      </TMATRIX>
+    </MATRIX>
+    <MATRIX ID="2">
+      <APPLY_TO_CHAIN CHAINID="A" NEW_CHAINID="C"/>
+      <TMATRIX>
+        <ROWX X="-0.50000000" Y="0.86602497" Z="0.00000000" T="-43.36000061"/>
+        <ROWY X="-0.86602497" Y="-0.50000000" Z="0.00000000" T="75.10172272"/>
+        <ROWZ X="0.00000000" Y="0.00000000" Z="1.00000000" T="0.00000000"/>
+      </TMATRIX>
+    </MATRIX>
+    <DELETE CHAINID="C"/>
+  </BIOMATRIX>
+  <MEMBRANE>
+    <NORMAL X="-0.00000102" Y="-0.00000056" Z="13.00000000"/>
+    <TMATRIX>
+      <ROWX X="1.00000000" Y="0.00000000" Z="0.00000000" T="-3.95622277"/>
+      <ROWY X="0.00000000" Y="1.00000000" Z="0.00000000" T="-53.04157639"/>
+      <ROWZ X="0.00000000" Y="0.00000000" Z="1.00000000" T="-64.60699463"/>
+    </TMATRIX>
+  </MEMBRANE>
+  <CHAIN CHAINID="A" NUM_TM="4" TYPE="alpha">
+    <SEQ>
+      MHHHHHHSPA LPAFLLCSTL LVIKMYVVAI ITGQVRLRKK AFANPEDALR 
+      HGGPQYCRSD PDVERCLRAH RNDMETIYPF LFLGFVYSFL GPNPFVAWMH 
+      FLVFLVGRVA HTVAYLGKLR APIRSVTYTL AQLPCASMAL QILWEAARHF 
+      LPAALRAALL GRLRTLRPWA DYKDDDDK
+    </SEQ>
+    <REGION seq_beg="8" pdb_beg="10"  seq_end="13" pdb_end="15"  type="1"/>
+    <REGION seq_beg="14" pdb_beg="16"  seq_end="30" pdb_end="32"  type="H"/>
+    <REGION seq_beg="31" pdb_beg="33"  seq_end="70" pdb_end="72"  type="2"/>
+    <REGION seq_beg="71" pdb_beg="73"  seq_end="88" pdb_end="90"  type="H"/>
+    <REGION seq_beg="89" pdb_beg="91"  seq_end="96" pdb_end="98"  type="1"/>
+    <REGION seq_beg="97" pdb_beg="99"  seq_end="113" pdb_end="115"  type="H"/>
+    <REGION seq_beg="114" pdb_beg="116"  seq_end="126" pdb_end="128"  type="2"/>
+    <REGION seq_beg="127" pdb_beg="129"  seq_end="144" pdb_end="146"  type="H"/>
+    <REGION seq_beg="145" pdb_beg="147"  seq_end="168" pdb_end="170"  type="1"/>
+  </CHAIN>
+  <CHAIN CHAINID="B" NUM_TM="4" TYPE="alpha">
+    <SEQ>
+      MHHHHHHSPA LPAFLLCSTL LVIKMYVVAI ITGQVRLRKK AFANPEDALR 
+      HGGPQYCRSD PDVERCLRAH RNDMETIYPF LFLGFVYSFL GPNPFVAWMH 
+      FLVFLVGRVA HTVAYLGKLR APIRSVTYTL AQLPCASMAL QILWEAARHF 
+      LPAALRAALL GRLRTLRPWA DYKDDDDK
+    </SEQ>
+    <REGION seq_beg="8" pdb_beg="10"  seq_end="13" pdb_end="15"  type="1"/>
+    <REGION seq_beg="14" pdb_beg="16"  seq_end="30" pdb_end="32"  type="H"/>
+    <REGION seq_beg="31" pdb_beg="33"  seq_end="70" pdb_end="72"  type="2"/>
+    <REGION seq_beg="71" pdb_beg="73"  seq_end="88" pdb_end="90"  type="H"/>
+    <REGION seq_beg="89" pdb_beg="91"  seq_end="96" pdb_end="98"  type="1"/>
+    <REGION seq_beg="97" pdb_beg="99"  seq_end="113" pdb_end="115"  type="H"/>
+    <REGION seq_beg="114" pdb_beg="116"  seq_end="126" pdb_end="128"  type="2"/>
+    <REGION seq_beg="127" pdb_beg="129"  seq_end="144" pdb_end="146"  type="H"/>
+    <REGION seq_beg="145" pdb_beg="147"  seq_end="168" pdb_end="170"  type="1"/>
+  </CHAIN>
+</pdbtm>
