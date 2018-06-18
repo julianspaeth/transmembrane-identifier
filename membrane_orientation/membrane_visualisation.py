@@ -90,6 +90,7 @@ def makePymolObject(cgo, name):
 def visualise(path_to_pdb_file, path_to_json):
 	# Load everything
 	cmd.reinitialize()
+	cmd.bg_color("white")
 	cmd.load(path_to_pdb_file)
 	pdb_id = path_to_pdb_file.split('/')[-1].split('.')[0]
 
@@ -103,7 +104,7 @@ def visualise(path_to_pdb_file, path_to_json):
 	cmd.hide("lines", pdb_id)
 	cmd.color("red", "ss h")
 	cmd.color("yellow", "ss s")
-	cmd.set("cartoon_transparency", 0.6, pdb_id)
+	cmd.set("cartoon_transparency", 0.7, pdb_id)
 
 
 	# All helices and TM helices
@@ -114,9 +115,9 @@ def visualise(path_to_pdb_file, path_to_json):
 		v2 = np.array(v)/np.linalg.norm(np.array(v))*15
 		c = np.array(c)
 
-		obj_all.extend(make_line(c - v2, c + v2))
+		obj_all.extend(make_line(c - v2, c + v2, [0.3,0.3,0.3]))
 		if l==1:
-			obj_tm.extend(make_line(c - v2, c + v2, [0.3,0.3,1]))
+			obj_tm.extend(make_line(c - v2, c + v2, [0.4,0.4,1], thickness=0.6))
 
 	makePymolObject(obj_all, "helices_all")
 	makePymolObject(obj_tm, "helices_TM")
@@ -132,7 +133,7 @@ def visualise(path_to_pdb_file, path_to_json):
 	for v, c in zip(data['vectors_filter1'], data['centers_filter1']):
 		v2 = np.array(v)/np.linalg.norm(np.array(v))*15
 		c = np.array(c)
-		obj_filter1.extend(make_line(c - v2, c + v2, color=[0,1,0]))
+		obj_filter1.extend(make_line(c - v2, c + v2, color=[0,1,0], thickness=0.9))
 
 	makePymolObject(obj_filter1, "helices_filter1")
 
@@ -142,7 +143,7 @@ def visualise(path_to_pdb_file, path_to_json):
 	for v, c in zip(data['vectors_filter2'], data['centers_filter2']):
 		v2 = np.array(v)/np.linalg.norm(np.array(v))*15
 		c = np.array(c)
-		obj_filter2.extend(make_line(c - v2, c + v2, color=[1,1,0]))
+		obj_filter2.extend(make_line(c - v2, c + v2, color=[1,1,0], thickness=1.2))
 
 	makePymolObject(obj_filter2, "helices_filter2")
 

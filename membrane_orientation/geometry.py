@@ -96,7 +96,7 @@ def make_vectors_cone(vector, angle=180, desired_number=100):
 
 	vector_list = make_vectors_sphere(int(total_count))
 	selected_vectors = [v for v in vector_list if abs(calculate_angle(vector, v, True)) < angle2]
-
+	print(len(selected_vectors))
 	return selected_vectors
 
 
